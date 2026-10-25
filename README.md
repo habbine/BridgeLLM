@@ -21,7 +21,7 @@ This repository collects and organizes legal and regulatory terms relevant to AI
 
 - `docs/glossary.csv` — glossary entries
 - `docs/taxonomy.md` — category definitions
-- `src/build_glossary.py` — scripts to generate structured output
+- `src/build_glossary.py` — script to generate structured output
 - `data/terms/` — term-specific notes and source material
 
 ## Example terms
@@ -34,6 +34,17 @@ This repository collects and organizes legal and regulatory terms relevant to AI
 - liability regime
 - explainability
 - automated decision-making
+
+## Quick start
+
+1. Add a new term under `data/terms/` using the standard front matter format.
+2. Run:
+
+```bash
+python3 src/build_glossary.py
+```
+
+3. Review the generated CSV in `docs/glossary.csv`.
 
 ## Contributing
 

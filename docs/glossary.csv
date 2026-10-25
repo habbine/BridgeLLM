@@ -1,0 +1,11 @@
+term,jurisdiction,category,definition,status,source_url
+AI Act,EU,Core AI governance,"EU regulation establishing a harmonized framework for AI systems based on risk and obligations.",in force,https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+GDPR,EU,Data protection and privacy,"General Data Protection Regulation governing personal data processing, rights, and enforcement in the EU.",in force,https://eur-lex.europa.eu/eli/reg/2016/679/oj
+Data Protection Authority,EU,Data protection and privacy,"National authority responsible for supervising the application of data protection rules and handling complaints.",in force,
+algorithmic transparency,EU,Core AI governance,"The requirement or practice of making the logic, decision factors, and relevant constraints of automated systems understandable to oversight bodies or affected persons.",emerging,https://www.oecd.org/going-digital/ai/
+model governance,US,Core AI governance,"Policies, controls, and oversight processes used to manage risks across the lifecycle of machine learning or AI models.",emerging,
+automated decision-making,EU,Data protection and privacy,"A decision taken solely or largely by automated means without meaningful human involvement.",in force,https://gdpr-info.eu/art-22-gdpr/
+AI liability regime,EU,Liability and responsibility,"Framework for allocating responsibility when damages or harms arise from AI systems, including fault and risk-based mechanisms.",proposed,
+foundation model,US,Emerging technology and cross-border concepts,"A large-scale model trained on broad data and adapted for a range of downstream tasks.",emerging,
+right to explanation,EU,Rights and procedural safeguards,"The right of individuals to receive meaningful information about the logic involved in automated decisions affecting them.",emerging,
+platform accountability,EU,Platform and digital market regulation,"The obligation of digital platforms to manage risks, disclose information, and remediate harms linked to their services.",emerging,
