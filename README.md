@@ -23,6 +23,22 @@ This repository collects and organizes legal and regulatory terms relevant to AI
 - `docs/taxonomy.md` — category definitions
 - `src/build_glossary.py` — script to generate structured output
 - `data/terms/` — term-specific notes and source material
+- `.github/ISSUE_TEMPLATE/` — contribution and review templates
+
+## Current glossary seed
+
+The glossary now includes a structured seed set of AI and legal concepts across the major categories of the project, including:
+
+- foundational AI concepts
+- learning and model design terms
+- model internals and inference concepts
+- data terminology
+- evaluation and trustworthiness concepts
+- AI risk and regulatory classifications
+- market and value-chain actors
+- biometrics and synthetic content
+- security threats and failure modes
+- engineering patterns and operations
 
 ## Example terms
 
@@ -35,24 +51,16 @@ This repository collects and organizes legal and regulatory terms relevant to AI
 - explainability
 - automated decision-making
 
-## Quick start
-
-1. Add a new term under `data/terms/` using the standard front matter format.
-2. Run:
-
-```bash
-python3 src/build_glossary.py
-```
-
-3. Review the generated CSV in `docs/glossary.csv`.
-
 ## Contributing
 
-Open a pull request with:
-- a new term
-- a better definition
-- jurisdiction context
-- source link or legal reference
+This project is designed for easy collaboration. The recommended flow is:
+
+- propose a new term via an issue template
+- improve an existing definition via a PR
+- discuss disputed wording in a GitHub issue or discussion
+- add a source or legal reference whenever possible
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full process.
 
 ## License
 

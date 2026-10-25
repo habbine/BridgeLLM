@@ -1,11 +1,286 @@
 term,jurisdiction,category,definition,status,source_url
-AI Act,EU,Core AI governance,"EU regulation establishing a harmonized framework for AI systems based on risk and obligations.",in force,https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
-GDPR,EU,Data protection and privacy,"General Data Protection Regulation governing personal data processing, rights, and enforcement in the EU.",in force,https://eur-lex.europa.eu/eli/reg/2016/679/oj
-Data Protection Authority,EU,Data protection and privacy,"National authority responsible for supervising the application of data protection rules and handling complaints.",in force,
-algorithmic transparency,EU,Core AI governance,"The requirement or practice of making the logic, decision factors, and relevant constraints of automated systems understandable to oversight bodies or affected persons.",emerging,https://www.oecd.org/going-digital/ai/
-model governance,US,Core AI governance,"Policies, controls, and oversight processes used to manage risks across the lifecycle of machine learning or AI models.",emerging,
-automated decision-making,EU,Data protection and privacy,"A decision taken solely or largely by automated means without meaningful human involvement.",in force,https://gdpr-info.eu/art-22-gdpr/
-AI liability regime,EU,Liability and responsibility,"Framework for allocating responsibility when damages or harms arise from AI systems, including fault and risk-based mechanisms.",proposed,
-foundation model,US,Emerging technology and cross-border concepts,"A large-scale model trained on broad data and adapted for a range of downstream tasks.",emerging,
-right to explanation,EU,Rights and procedural safeguards,"The right of individuals to receive meaningful information about the logic involved in automated decisions affecting them.",emerging,
-platform accountability,EU,Platform and digital market regulation,"The obligation of digital platforms to manage risks, disclose information, and remediate harms linked to their services.",emerging,
+Artificial intelligence (AI),Cross-border,Foundational concepts,"The field of computer science concerned with systems that perform tasks commonly associated with human intelligence, such as reasoning, perception, language understanding, and planning.",emerging,
+AI system,Cross-border,Foundational concepts,"A machine-based system that may operate with varying levels of autonomy and can generate outputs such as predictions, recommendations, or decisions for a given set of objectives.",emerging,
+AI model,Cross-border,Foundational concepts,"A mathematical representation or computational artifact trained to infer patterns from data and produce outputs for a task or class of tasks.",emerging,
+Model (generic),Cross-border,Foundational concepts,"A learned or engineered representation used to map inputs to outputs or to approximate a function in a computational system.",emerging,
+General-purpose AI model (GPAI model),Cross-border,Foundational concepts,"A model designed to perform or adapt to a wide range of tasks across multiple domains rather than a single fixed use case.",emerging,
+GPAI model with systemic risk,Cross-border,Foundational concepts,"A general-purpose AI model that, due to its capabilities or scale, may present significant potential harms requiring heightened oversight.",emerging,
+General-purpose AI system,Cross-border,Foundational concepts,"An AI system built on general-purpose models and capable of serving multiple downstream uses, applications, or tasks.",emerging,
+Foundation model,Cross-border,Foundational concepts,"A large-scale model trained on broad data and adapted for a variety of downstream tasks across different applications.",emerging,
+Frontier model,Cross-border,Foundational concepts,"A highly capable model at or near the leading edge of AI capability, often associated with heightened technical and governance concerns.",emerging,
+Large language model (LLM),Cross-border,Foundational concepts,"A model trained on large textual corpora to generate, classify, and transform language based on patterns in that data.",emerging,
+Multimodal model,Cross-border,Foundational concepts,"A model trained to process and relate information from multiple input types, such as text, images, audio, and video.",emerging,
+Generative AI,Cross-border,Foundational concepts,"AI systems designed to create new content, such as text, images, audio, video, or code, based on learned patterns.",emerging,
+Generative vs discriminative model,Cross-border,Foundational concepts,"A distinction between models that learn to create new data samples and models that learn to classify or distinguish among existing patterns.",emerging,
+AI agent; agentic AI system,Cross-border,Foundational concepts,"A system that can perceive context, pursue goals, choose actions, and use tools or external systems with a degree of autonomy.",emerging,
+AI application; AI tool,Cross-border,Foundational concepts,"A product or service that applies AI capabilities to a user-facing task, often through a model wrapped in an interface or workflow.",emerging,
+Algorithm,Cross-border,Foundational concepts,"A finite set of instructions or rules used to perform computation, analysis, or decision-making.",emerging,
+Machine learning (ML),Cross-border,"Learning paradigms, architectures and training methods","A field of AI in which systems improve their performance by learning patterns from data rather than being explicitly programmed for every rule.",emerging,
+Deep learning,Cross-border,"Learning paradigms, architectures and training methods","A subset of machine learning based on multi-layer artificial neural networks that can model complex nonlinear patterns.",emerging,
+Neural network; artificial neural network (ANN),Cross-border,"Learning paradigms, architectures and training methods","A computational structure inspired by biological neural networks, composed of interconnected units that process and transform information.",emerging,
+Transformer,Cross-border,"Learning paradigms, architectures and training methods","A neural network architecture based on attention mechanisms that has become the dominant design for language and multimodal models.",emerging,
+Mixture-of-experts (MoE),Cross-border,"Learning paradigms, architectures and training methods","A model architecture in which different subsets of parameters, called experts, are selectively activated for different inputs.",emerging,
+Attention; self-attention,Cross-border,"Learning paradigms, architectures and training methods","A mechanism that allows a model to weigh which parts of an input sequence are most relevant when processing each element.",emerging,
+Supervised learning,Cross-border,"Learning paradigms, architectures and training methods","A training approach in which the model learns from labelled examples that show the desired output for each input.",emerging,
+Unsupervised learning,Cross-border,"Learning paradigms, architectures and training methods","A training approach that seeks to discover patterns or structure in data without explicit labels.",emerging,
+Self-supervised learning,Cross-border,"Learning paradigms, architectures and training methods","A training paradigm in which models generate labels from the input data itself, often used for representation learning and pre-training.",emerging,
+Reinforcement learning (RL),Cross-border,"Learning paradigms, architectures and training methods","A training paradigm in which an agent learns via trial and error by receiving rewards or penalties for its actions.",emerging,
+Pre-training; post-training,Cross-border,"Learning paradigms, architectures and training methods","The stages of model development in which a base model is first trained on broad data and then refined for specific tasks or behaviours.",emerging,
+Fine-tuning,Cross-border,"Learning paradigms, architectures and training methods","The process of adjusting a pre-trained model using a narrower dataset or objective to improve performance for a target task.",emerging,
+Instruction tuning; supervised fine-tuning (SFT),Cross-border,"Learning paradigms, architectures and training methods","A fine-tuning method that teaches a model to follow human instructions by training on examples of instruction-response pairs.",emerging,
+Reinforcement learning from human feedback (RLHF),Cross-border,"Learning paradigms, architectures and training methods","A technique in which human preference data is used to train a reward model or directly improve model behaviour through reinforcement learning.",emerging,
+Constitutional AI; RLAIF,Cross-border,"Learning paradigms, architectures and training methods","A family of methods that uses normative rules or AI-generated feedback to steer model behaviour toward safer or more aligned outputs.",emerging,
+Direct preference optimisation (DPO),Cross-border,"Learning paradigms, architectures and training methods","A training method that optimises a model directly from preference comparisons instead of learning a separate reward model.",emerging,
+Alignment,Cross-border,"Learning paradigms, architectures and training methods","The process of shaping a model's behaviour to better match human values, instructions, or safety objectives.",emerging,
+Parameter-efficient fine-tuning (PEFT),Cross-border,"Learning paradigms, architectures and training methods","A category of fine-tuning techniques that updates only a small subset of model parameters or adds lightweight adapters rather than retraining the full model.",emerging,
+Low-rank adaptation (LoRA),Cross-border,"Learning paradigms, architectures and training methods","A parameter-efficient method that injects trainable low-rank updates into model weights to adapt a base model to a new task.",emerging,
+Knowledge distillation,Cross-border,"Learning paradigms, architectures and training methods","A technique in which a smaller model learns to imitate the behaviour or outputs of a larger teacher model.",emerging,
+Transfer learning,Cross-border,"Learning paradigms, architectures and training methods","The reuse of knowledge learned in one task or domain to improve performance on a related task or domain.",emerging,
+In-context learning; few-shot prompting,Cross-border,"Learning paradigms, architectures and training methods","The ability of a model to adapt to a task by using examples or instructions embedded directly in the input prompt.",emerging,
+Generalisation; overfitting; underfitting,Cross-border,"Learning paradigms, architectures and training methods","The relationship between a model's ability to learn patterns from training data and its ability to perform well on new, unseen data.",emerging,
+Catastrophic forgetting,Cross-border,"Learning paradigms, architectures and training methods","The tendency of a model to lose previously learned capabilities when it is updated or fine-tuned on new data.",emerging,
+Model merging,Cross-border,"Learning paradigms, architectures and training methods","The combination of multiple model variants or checkpoints into one model to preserve or blend capabilities.",emerging,
+Quantisation,Cross-border,"Learning paradigms, architectures and training methods","The reduction of numerical precision used to represent model parameters, often to improve efficiency and reduce memory use.",emerging,
+Scaling laws,Cross-border,"Learning paradigms, architectures and training methods","Empirical relationships showing how model performance tends to improve as a function of scale in data, parameters, and compute.",emerging,
+Parameter,Cross-border,"Model internals, inference and interaction","A learnable value inside a model that is adjusted during training to encode the model’s behaviour.",emerging,
+Weight,Cross-border,"Model internals, inference and interaction","A parameter in a neural network that modulates the influence of one unit or feature on another.",emerging,
+Hyperparameter,Cross-border,"Model internals, inference and interaction","A configuration choice set before training, such as learning rate or batch size, that affects how a model learns.",emerging,
+Token; tokenisation,Cross-border,"Model internals, inference and interaction","A discrete unit of text or data used as the basic building block for model inputs, often produced by tokenization.",emerging,
+Embedding,Cross-border,"Model internals, inference and interaction","A numerical vector representation that captures the semantic or structural characteristics of data in a model.",emerging,
+Context window,Cross-border,"Model internals, inference and interaction","The maximum amount of input context a model can consider at one time when generating an output.",emerging,
+Inference (ML sense),Cross-border,"Model internals, inference and interaction","The process of applying a trained model to new inputs to generate predictions, classifications, or responses.",emerging,
+Prompt; system prompt,Cross-border,"Model internals, inference and interaction","An input instruction or context provided to a model that shapes its behaviour or guides the generated output.",emerging,
+Decoding; sampling; temperature,Cross-border,"Model internals, inference and interaction","The process of choosing one output token or sequence from a model’s distribution, often controlled by sampling strategy and temperature.",emerging,
+Non-determinism; stochasticity,Cross-border,"Model internals, inference and interaction","The property that repeated runs of the same model on the same input may produce different outputs because of random sampling procedures.",emerging,
+Chain-of-thought; reasoning model,Cross-border,"Model internals, inference and interaction","A model or prompting pattern that generates intermediate reasoning steps before producing a final answer.",emerging,
+Retrieval-augmented generation (RAG),Cross-border,"Model internals, inference and interaction","A pattern in which a model retrieves relevant external information and incorporates it into the generation process to improve groundedness or factuality.",emerging,
+Tool calling; function calling,Cross-border,"Model internals, inference and interaction","A model capability to invoke external functions, APIs, or tools as part of a workflow to perform an action or fetch information.",emerging,
+Scaffolding; inference-time compute,Cross-border,"Model internals, inference and interaction","The use of extra reasoning, search, or deliberation steps during inference to improve output quality or decision accuracy.",emerging,
+KV cache,Cross-border,"Model internals, inference and interaction","A memory structure used to store computed key-value states from previous tokens to speed up generation during inference.",emerging,
+Speculative decoding,Cross-border,"Model internals, inference and interaction","A generation optimization in which a smaller model proposes multiple candidate tokens and a larger model verifies them efficiently.",emerging,
+Floating-point operation (FLOP); training compute,Cross-border,"Model internals, inference and interaction","A measure of arithmetic work used to describe computational cost, especially for model training and inference workloads.",emerging,
+Data,Cross-border,Data,"The information used to train, validate, test, or operate AI systems, including structured and unstructured inputs.",emerging,
+Personal data; non-personal data,Cross-border,Data,"Information that relates to an identifiable person, as opposed to data that does not identify a natural person.",emerging,
+Dataset; data set,Cross-border,Data,"A structured collection of data points used for training, evaluation, or testing a model.",emerging,
+Training data,Cross-border,Data,"The dataset used to teach a model how to map inputs to outputs or to learn patterns in the data.",emerging,
+Validation data,Cross-border,Data,"A subset of data used to tune model parameters, select configurations, or monitor learning during development.",emerging,
+Validation data set,Cross-border,Data,"The dataset reserved for validation purposes during model development and tuning.",emerging,
+Testing data,Cross-border,Data,"A dataset used after development to measure a model's final performance on unseen examples.",emerging,
+Input data,Cross-border,Data,"The information supplied to a model at inference time or during processing to produce an output.",emerging,
+Synthetic data,Cross-border,Data,"Artificially generated data that imitates real-world data and may be used for training, testing, or augmentation.",emerging,
+Text and data mining (TDM),Cross-border,Data,"The automated analysis of large amounts of digital content or data to extract patterns, knowledge, or useful information.",emerging,
+Data science,Cross-border,Data,"The field concerned with extracting insights from data through statistical, computational, and analytical methods.",emerging,
+Accuracy,Cross-border,"Evaluation, performance and trustworthiness","The degree to which a model's predictions or outputs correspond to the correct or expected result.",emerging,
+Calibration; uncertainty quantification,Cross-border,"Evaluation, performance and trustworthiness","The extent to which a model's confidence reflects the actual likelihood of correctness, including methods to estimate uncertainty.",emerging,
+Performance of an AI system,Cross-border,"Evaluation, performance and trustworthiness","The measurable behaviour of an AI system against objectives, tasks, and operational conditions, including quality, speed, and reliability.",emerging,
+Benchmark,Cross-border,"Evaluation, performance and trustworthiness","A standard test or dataset used to compare the performance of models or systems on specific tasks.",emerging,
+Evaluation; evals,Cross-border,"Evaluation, performance and trustworthiness","The process of measuring model or system performance using tests, metrics, or structured assessment protocols.",emerging,
+Capability elicitation; sandbagging,Cross-border,"Evaluation, performance and trustworthiness","The process of revealing or concealing a model's true abilities under different test conditions or prompting strategies.",emerging,
+Testing,Cross-border,"Evaluation, performance and trustworthiness","The systematic examination of a system to assess whether it behaves as expected under defined conditions.",emerging,
+Testing in real-world conditions,Cross-border,"Evaluation, performance and trustworthiness","The evaluation of a system under realistic operational settings rather than only in controlled laboratory conditions.",emerging,
+Validation,Cross-border,"Evaluation, performance and trustworthiness","The process of checking whether a model or system meets required performance or quality criteria for its intended use.",emerging,
+Reliability,Cross-border,"Evaluation, performance and trustworthiness","The degree to which a system performs consistently and predictably over time and across conditions.",emerging,
+Robustness,Cross-border,"Evaluation, performance and trustworthiness","The capacity of a model or system to maintain performance when faced with noisy, adversarial, or shifted inputs.",emerging,
+Cybersecurity (AI-specific),Cross-border,"Evaluation, performance and trustworthiness","Security considerations specific to AI systems, including model theft, adversarial inputs, prompt manipulation, and exploitation of model vulnerabilities.",emerging,
+Bias,Cross-border,"Evaluation, performance and trustworthiness","Systematic error or skew in a system's outputs, often caused by skewed training data, objective functions, or design choices.",emerging,
+Fairness (algorithmic),Cross-border,"Evaluation, performance and trustworthiness","The principle that models or decisions should not systematically disadvantage particular individuals or groups in unjust or discriminatory ways.",emerging,
+Drift; distribution shift,Cross-border,"Evaluation, performance and trustworthiness","A change in the data distribution over time or the conditions under which a model operates, leading to degraded performance.",emerging,
+Hallucination; confabulation,Cross-border,"Evaluation, performance and trustworthiness","The generation of fluent but incorrect, fabricated, or unsupported outputs by an AI system.",emerging,
+Explainability,Cross-border,"Evaluation, performance and trustworthiness","The degree to which a system's decision process or output can be explained in a manner that is understandable to humans.",emerging,
+Faithfulness (of explanations),Cross-border,"Evaluation, performance and trustworthiness","The extent to which an explanation accurately reflects the actual factors influencing the model’s decision.",emerging,
+Interpretability,Cross-border,"Evaluation, performance and trustworthiness","The degree to which a model's internal logic or decision-making can be understood by humans.",emerging,
+Mechanistic interpretability,Cross-border,"Evaluation, performance and trustworthiness","A research approach aimed at understanding a model’s internal computations and representations at a mechanistic level.",emerging,
+Transparency,Cross-border,"Evaluation, performance and trustworthiness","The openness or visibility of information about a system, including its design, data, limits, and purpose.",emerging,
+Opacity; “black box”,Cross-border,"Evaluation, performance and trustworthiness","A condition in which a system's internal reasoning or decision logic is difficult or impossible for a human to inspect.",emerging,
+Human oversight,Cross-border,"Evaluation, performance and trustworthiness","The meaningful involvement of a human in a system’s operation, supervision, or decision-making process.",emerging,
+Automation bias,Cross-border,"Evaluation, performance and trustworthiness","The tendency of humans to over-trust automated outputs or decisions, even when they are flawed or uncertain.",emerging,
+Red teaming; adversarial testing,Cross-border,"Evaluation, performance and trustworthiness","A structured process of testing a system under hostile or adversarial conditions to uncover weaknesses, vulnerabilities, or unsafe behaviour.",emerging,
+Logging; record-keeping; traceability,Cross-border,"Evaluation, performance and trustworthiness","The practice of storing relevant operational data and decision records so that actions, outputs, and system behaviour can be reviewed later.",emerging,
+AI literacy,Cross-border,"Evaluation, performance and trustworthiness","The ability of individuals and organisations to understand, critically evaluate, and responsibly use AI systems.",emerging,
+Risk,Cross-border,"Risk and regulatory classification","The likelihood and magnitude of harm, loss, or adverse impact associated with a system or activity.",emerging,
+Prohibited AI practices,EU,"Risk and regulatory classification","AI practices that are banned because they pose unacceptable risks to individuals or society, such as certain manipulative, exploitative, or harmful uses.",in force,
+High-risk AI system,EU,"Risk and regulatory classification","An AI system that, because of its intended purpose or deployment context, presents a significant risk of harm and is subject to heightened obligations.",in force,
+Systemic risk,Cross-border,"Risk and regulatory classification","A risk that may affect a broad segment of society, infrastructure, markets, or the wider ecosystem due to the scale or impact of a system.",emerging,
+High-impact capabilities,Cross-border,"Risk and regulatory classification","Model abilities or characteristics that indicate a system may pose unusually significant safety, security, or societal risks.",emerging,
+Intended purpose,EU,"Risk and regulatory classification","The objective and use conditions for which a system is designed, deployed, and assessed under regulation.",in force,
+Reasonably foreseeable misuse,EU,"Risk and regulatory classification","A foreseeable way in which a system might be used in a harmful or inappropriate manner, taking into account normal operating conditions.",in force,
+Substantial modification,EU,"Risk and regulatory classification","A significant change to an AI system or model that materially alters its intended purpose, risk profile, or compliance obligations.",in force,
+Safety component,EU,"Risk and regulatory classification","A product or component designed to ensure the safe operation of another system, including where it plays a protective or risk-reduction role.",in force,
+Instructions for use,EU,"Risk and regulatory classification","The information provided to users or deployers to guide the proper, safe, and intended use of an AI system.",in force,
+Conformity assessment,EU,"Risk and regulatory classification","The process by which a provider demonstrates that a product or AI system meets the applicable legal requirements and technical standards.",in force,
+Notified body,EU,"Risk and regulatory classification","A designated organisation responsible for assessing conformity with relevant requirements for certain regulated products or systems.",in force,
+CE marking,EU,"Risk and regulatory classification","A declaration that a product or system complies with applicable EU requirements and may be placed on the market in the EU.",in force,
+Harmonised standard; common specification,EU,"Risk and regulatory classification","A technical standard or specification adopted to ensure consistent implementation of legal requirements across the EU market.",in force,
+Post-market monitoring,EU,"Risk and regulatory classification","The ongoing process of tracking a system's performance, incidents, and risks after it has been placed on the market or put into service.",in force,
+Serious incident,EU,"Risk and regulatory classification","A harmful event involving an AI system that results in significant adverse consequences for health, safety, rights, or operations.",in force,
+Fundamental rights impact assessment (FRIA),EU,"Risk and regulatory classification","A structured assessment of how an AI system may affect fundamental rights, including dignity, equality, privacy, and due process.",in force,
+AI regulatory sandbox,EU,"Risk and regulatory classification","A supervised testing environment in which organisations can experiment with AI systems under regulatory oversight to evaluate risks and compliance.",emerging,
+Provider,EU,"Value-chain actors and market concepts","The natural or legal person responsible for placing an AI system on the market or putting it into service under its own name or trademark.",in force,
+Downstream provider,EU,"Value-chain actors and market concepts","A provider that modifies or integrates a prior AI system or model for a new purpose or use, creating a new regulated role.",in force,
+Deployer,EU,"Value-chain actors and market concepts","The natural or legal person using an AI system under its authority for its own professional activities.",in force,
+Shadow AI,Cross-border,"Value-chain actors and market concepts","The unauthorised or ungoverned use of AI tools or systems within an organisation outside formal approval or oversight processes.",emerging,
+Importer,EU,"Value-chain actors and market concepts","A person in the EU who places an AI system or product from a third country on the EU market.",in force,
+Distributor,EU,"Value-chain actors and market concepts","A person in the supply chain who makes an AI system available on the market without being the manufacturer or importer.",in force,
+Authorised representative,EU,"Value-chain actors and market concepts","A person appointed by a provider established outside the EU to act on its behalf for regulatory compliance in the EU.",in force,
+Product manufacturer,EU,"Value-chain actors and market concepts","The entity responsible for designing, manufacturing, or placing a product on the market, including where AI is embedded in the product.",in force,
+Operator,EU,"Value-chain actors and market concepts","A person who operates or controls a product or system, or who is responsible for its use, in the context of a regulated activity.",in force,
+Affected person,EU,"Value-chain actors and market concepts","A person whose rights, interests, or circumstances may be materially affected by the use of an AI system.",in force,
+Placing on the market,EU,"Value-chain actors and market concepts","The first making available of a product or AI system for distribution, sale, or use within the market.",in force,
+Making available on the market,EU,"Value-chain actors and market concepts","The act of supplying or distributing a product or AI system for use in the market, whether for free or for payment.",in force,
+Putting into service,EU,"Value-chain actors and market concepts","The act of making an AI system available for use in a specific environment or application, subject to operational conditions.",in force,
+Deployment (technical),Cross-border,"Value-chain actors and market concepts","The operation or release of a trained model or system in a real environment for actual use or service delivery.",emerging,
+Biometric data,EU,"Biometrics and synthetic content","Personal data resulting from specific technical processing relating to the physical, physiological, or behavioural characteristics of a person.",in force,
+Biometric identification,EU,"Biometrics and synthetic content","The automated recognition of a person based on biometric data, typically by comparing a sample to a database of enrolled records.",in force,
+Biometric verification,EU,"Biometrics and synthetic content","The automated confirmation that a claimed identity matches a specific person based on biometric data.",in force,
+Remote biometric identification (RBI) system,EU,"Biometrics and synthetic content","A biometric system that identifies individuals remotely by analysing biometric signals from a distance, often in public spaces.",in force,
+Biometric categorisation system,EU,"Biometrics and synthetic content","A system used to infer or classify individuals into categories based on biometric information, such as physical or behavioural characteristics.",in force,
+Emotion recognition system,EU,"Biometrics and synthetic content","A system intended to infer a person's emotional state from biometric or behavioural signals.",in force,
+Deep fake,Cross-border,"Biometrics and synthetic content","Synthetic media that convincingly imitate real people, voices, or actions, often created using generative AI techniques.",emerging,
+Watermarking; content provenance,Cross-border,"Biometrics and synthetic content","Methods for attaching or recording metadata about the origin, authenticity, or history of digital content to help assess trustworthiness or manipulation.",emerging,
+Adversarial example; evasion attack,Cross-border,"Security threats and failure modes","A crafted input designed to fool a model into producing an incorrect output or behaving in an unintended way.",emerging,
+Data poisoning; model poisoning; backdoor,Cross-border,"Security threats and failure modes","A malicious manipulation of training data or model behaviour that causes a model to learn dangerous or hidden patterns.",emerging,
+AI bill of materials (AI-BOM); provenance,Cross-border,"Security threats and failure modes","A structured record of the components, datasets, dependencies, and lineage associated with an AI system for transparency and risk management.",emerging,
+Prompt injection,Cross-border,"Security threats and failure modes","An attack in which malicious instructions are embedded in input content to cause an AI system to disregard intended controls or follow dangerous instructions.",emerging,
+Jailbreak,Cross-border,"Security threats and failure modes","A prompt or technique used to bypass or override a model's safety restrictions, guardrails, or usage policies.",emerging,
+Model extraction; membership inference; model inversion,Cross-border,"Security threats and failure modes","Attacks aimed at inferring model parameters, reconstructing training data, or extracting sensitive information from an AI model or its outputs.",emerging,
+Model collapse,Cross-border,"Security threats and failure modes","A failure mode in which iterative training on generated or synthetic outputs degrades model quality or diversity over time.",emerging,
+Sycophancy,Cross-border,"Security threats and failure modes","A model behaviour in which the system overly agrees with user preferences or prompts, even when such agreement is inaccurate or unhelpful.",emerging,
+Agentic workflow,Cross-border,"Engineering patterns and operations","A structured orchestration pattern in which an AI agent performs a sequence of tasks, decisions, and tool interactions to accomplish a larger goal.",emerging,
+ReAct (reasoning and acting),Cross-border,"Engineering patterns and operations","A prompting strategy that alternates between reasoning steps and actions, such as tool calls or external retrieval, to solve tasks interactively.",emerging,
+Plan-and-execute; Plan-and-Solve,Cross-border,"Engineering patterns and operations","An approach in which a model first develops a plan and then carries it out in a controlled sequence of actions.",emerging,
+Self-correction; Reflexion,Cross-border,"Engineering patterns and operations","A pattern in which a model evaluates its own output, identifies mistakes, and revises its response before finalizing.",emerging,
+Multi-agent system,Cross-border,"Engineering patterns and operations","A system composed of several AI agents or modules that communicate, coordinate, or negotiate to solve a task.",emerging,
+Agent memory (short-term / long-term),Cross-border,"Engineering patterns and operations","The mechanisms that allow an AI agent to retain context or past interactions across a conversation, session, or extended workflow.",emerging,
+Guardrails,Cross-border,"Engineering patterns and operations","Safety or business constraints implemented in prompts, policies, filters, or system design to reduce harmful or undesired outputs.",emerging,
+AI gateway,Cross-border,"Engineering patterns and operations","A control layer that routes model requests, applies governance checks, enforces policies, and centralises model access.",emerging,
+MLOps; LLMOps,Cross-border,"Engineering patterns and operations","Operational disciplines for managing the development, deployment, monitoring, and continuous improvement of machine learning and large language models.",emerging,
+AI assistant (“copilot” pattern),Cross-border,"Engineering patterns and operations","A conversational or workflow-oriented assistant that helps with drafting, analysis, coding, or decision support in a user-facing environment.",emerging,
+Open-weight vs open-source model,Cross-border,"Engineering patterns and operations","The distinction between models whose weights are publicly available and models whose source code, training pipeline, or licences are openly released.",emerging,
+Model card; system card,Cross-border,"Engineering patterns and operations","Structured documentation describing a model's intended use, evaluation results, limitations, and relevant safety and governance context.",emerging,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
