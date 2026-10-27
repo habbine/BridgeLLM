@@ -14,6 +14,7 @@ You need a free GitHub account. Assess as many or as few terms as you like.
 
 - **Phase 1, calibration.** Please start with the ★ terms. We test the scoring guide on them: if reviewers score the same term very differently, the guide's wording needs work, and we fix that before Phase 2.
 - **Phase 2, all terms.** Choose terms in your field. [`assessment/STATUS.md`](assessment/STATUS.md) shows which terms still need reviewers. The aim is at least 3 independent assessments per term, including law, machine learning and software engineering.
+- **Phase 3, proposing changes (later).** Only if Phase 1 shows enough people take part. Reviewers would then see the maintainer's draft definitions and propose changes. Each proposal can be endorsed or disputed with a source. Votes are advisory, the maintainer decides, and every decision is recorded with its reasons in a decision log. Not open yet.
 - **Independence.** Please submit your assessment before reading other people's assessments of the same term. Issues are public, so this relies on goodwill. Scores are not summarised anywhere while the first pass is open, so they do not influence later reviewers. Disagreement between reviewers is useful; it is reported, not averaged away.
 
 ## Credit
@@ -22,8 +23,9 @@ Contributors who choose to be listed appear in [`assessment/CONTRIBUTORS.md`](as
 
 ## Licence
 
-- Glossary content, assessments and other contributions are licensed under [CC BY 4.0](LICENSE-CONTENT).
+- Assessments, contributions and the other material in this repository are licensed under [CC BY 4.0](LICENSE-CONTENT).
 - Code (`src/`, `tests/`, `.github/workflows/`) is licensed under the [MIT licence](LICENSE).
+- The maintainer's own draft definitions are **not** covered by CC BY. They are not published here yet. If they are published in this repository they will sit in a separate `definitions/` folder under their own "all rights reserved, review draft" notice, or be shared in a private repository.
 - The assessment form also asks you to grant the maintainers a licence to use, adapt, sublicense and publish your contribution, including in a book. You keep the copyright in what you write.
 
 ## Other ways to help
