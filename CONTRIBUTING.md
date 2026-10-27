@@ -25,7 +25,7 @@ Contributors who choose to be listed appear in [`assessment/CONTRIBUTORS.md`](as
 
 - Assessments, contributions and the other material in this repository are licensed under [CC BY 4.0](LICENSE-CONTENT).
 - Code (`src/`, `tests/`, `.github/workflows/`) is licensed under the [MIT licence](LICENSE).
-- The maintainer's own draft definitions are **not** covered by CC BY. They are not published here yet. If they are published in this repository they will sit in a separate `definitions/` folder under their own "all rights reserved, review draft" notice, or be shared in a private repository.
+- The maintainer's draft definitions live in [`definitions/`](definitions/NOTICE.md) under their own "all rights reserved, review draft" notice. They are not covered by CC BY. They are not published yet (see Phase 3). Public repositories can be forked on GitHub under GitHub's terms; that gives no right beyond GitHub.
 - The assessment form also asks you to grant the maintainers a licence to use, adapt, sublicense and publish your contribution, including in a book. You keep the copyright in what you write.
 
 ## Other ways to help
