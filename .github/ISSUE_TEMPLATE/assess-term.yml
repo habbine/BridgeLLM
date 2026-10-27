@@ -148,5 +148,5 @@ body:
     attributes:
       label: "Licence"
       options:
-        - label: "I grant the maintainers a non-exclusive, perpetual, worldwide licence to use, adapt and publish my contribution (including in a printed or online book), and I confirm that I have the right to do so."
+        - label: "I license my contribution under CC BY 4.0, and I also grant the maintainers a non-exclusive, perpetual, worldwide, sublicensable licence to use, adapt and publish it, including in a printed or online book. I confirm that I have the right to do so."
           required: true

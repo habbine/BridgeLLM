@@ -68,4 +68,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full process.
 
 ## License
 
-MIT or CC BY 4.0 depending on your preferred project model.
+This repository uses two licenses:
+
+- **Glossary content** (terms, definitions, notes, assessments and other contributions): [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE-CONTENT). Please credit "AI Legal Glossary contributors, https://github.com/habbine/ai-legal-glossary".
+- **Code** (`src/`, `tests/`, `.github/workflows/`): [MIT License](LICENSE).
+
+GitHub shows only the MIT license in the sidebar because it detects a single file; the content license above applies to everything that is not code. Contributors keep their copyright and grant the maintainers an additional publication licence through the assessment form (see [CONTRIBUTING.md](CONTRIBUTING.md)).

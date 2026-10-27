@@ -22,7 +22,9 @@ Contributors who choose to be listed appear in [`assessment/CONTRIBUTORS.md`](as
 
 ## Licence
 
-The assessment form asks you to grant the maintainers a licence to use, adapt and publish your contribution, including in a book. The licence of the repository itself is set separately by the maintainer.
+- Glossary content, assessments and other contributions are licensed under [CC BY 4.0](LICENSE-CONTENT).
+- Code (`src/`, `tests/`, `.github/workflows/`) is licensed under the [MIT licence](LICENSE).
+- The assessment form also asks you to grant the maintainers a licence to use, adapt, sublicense and publish your contribution, including in a book. You keep the copyright in what you write.
 
 ## Other ways to help
 
