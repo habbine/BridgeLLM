@@ -1,0 +1,31 @@
+name: Suggest a missing term
+description: Propose a term that the glossary does not cover
+title: "[New term] "
+labels: ["new-term"]
+body:
+  - type: input
+    id: term
+    attributes:
+      label: Term
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should it be added?
+      description: Where is it used (law, research, industry) and what would be lost without it?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources (optional)
+    validations:
+      required: false
+  - type: checkboxes
+    id: licence
+    attributes:
+      label: Licence
+      options:
+        - label: I agree that my contribution may be published under this repository's licence.
+          required: true

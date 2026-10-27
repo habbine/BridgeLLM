@@ -1,0 +1,159 @@
+id,part,part_title,term
+1,A,Foundational concepts,Artificial intelligence (AI)
+2,A,Foundational concepts,AI system
+3,A,Foundational concepts,AI model
+4,A,Foundational concepts,Model (generic)
+5,A,Foundational concepts,General-purpose AI model (GPAI model)
+6,A,Foundational concepts,GPAI model with systemic risk
+7,A,Foundational concepts,General-purpose AI system
+8,A,Foundational concepts,Foundation model
+9,A,Foundational concepts,Frontier model
+10,A,Foundational concepts,Large language model (LLM)
+11,A,Foundational concepts,Multimodal model
+12,A,Foundational concepts,Generative AI
+13,A,Foundational concepts,Generative vs discriminative model
+14,A,Foundational concepts,AI agent; agentic AI system
+15,A,Foundational concepts,AI application; AI tool
+16,A,Foundational concepts,Algorithm
+17,B,"Learning paradigms, architectures and training methods",Machine learning (ML)
+18,B,"Learning paradigms, architectures and training methods",Deep learning
+19,B,"Learning paradigms, architectures and training methods",Neural network; artificial neural network (ANN)
+20,B,"Learning paradigms, architectures and training methods",Transformer
+21,B,"Learning paradigms, architectures and training methods",Mixture-of-experts (MoE)
+22,B,"Learning paradigms, architectures and training methods",Attention; self-attention
+23,B,"Learning paradigms, architectures and training methods",Supervised learning
+24,B,"Learning paradigms, architectures and training methods",Unsupervised learning
+25,B,"Learning paradigms, architectures and training methods",Self-supervised learning
+26,B,"Learning paradigms, architectures and training methods",Reinforcement learning (RL)
+27,B,"Learning paradigms, architectures and training methods",Pre-training; post-training
+28,B,"Learning paradigms, architectures and training methods",Fine-tuning
+29,B,"Learning paradigms, architectures and training methods",Instruction tuning; supervised fine-tuning (SFT)
+30,B,"Learning paradigms, architectures and training methods",Reinforcement learning from human feedback (RLHF)
+31,B,"Learning paradigms, architectures and training methods",Constitutional AI; RLAIF
+32,B,"Learning paradigms, architectures and training methods",Direct preference optimisation (DPO)
+33,B,"Learning paradigms, architectures and training methods",Alignment
+34,B,"Learning paradigms, architectures and training methods",Parameter-efficient fine-tuning (PEFT)
+35,B,"Learning paradigms, architectures and training methods",Low-rank adaptation (LoRA)
+36,B,"Learning paradigms, architectures and training methods",Knowledge distillation
+37,B,"Learning paradigms, architectures and training methods",Transfer learning
+38,B,"Learning paradigms, architectures and training methods",In-context learning; few-shot prompting
+39,B,"Learning paradigms, architectures and training methods",Generalisation; overfitting; underfitting
+40,B,"Learning paradigms, architectures and training methods",Catastrophic forgetting
+41,B,"Learning paradigms, architectures and training methods",Model merging
+42,B,"Learning paradigms, architectures and training methods",Quantisation
+43,B,"Learning paradigms, architectures and training methods",Scaling laws
+44,C,"Model internals, inference and interaction",Parameter
+45,C,"Model internals, inference and interaction",Weight
+46,C,"Model internals, inference and interaction",Hyperparameter
+47,C,"Model internals, inference and interaction",Token; tokenisation
+48,C,"Model internals, inference and interaction",Embedding
+49,C,"Model internals, inference and interaction",Context window
+50,C,"Model internals, inference and interaction",Inference (ML sense)
+51,C,"Model internals, inference and interaction",Prompt; system prompt
+52,C,"Model internals, inference and interaction",Decoding; sampling; temperature
+53,C,"Model internals, inference and interaction",Non-determinism; stochasticity
+54,C,"Model internals, inference and interaction",Chain-of-thought; reasoning model
+55,C,"Model internals, inference and interaction",Retrieval-augmented generation (RAG)
+56,C,"Model internals, inference and interaction",Tool calling; function calling
+57,C,"Model internals, inference and interaction",Scaffolding; inference-time compute
+58,C,"Model internals, inference and interaction",KV cache
+59,C,"Model internals, inference and interaction",Speculative decoding
+60,C,"Model internals, inference and interaction",Floating-point operation (FLOP); training compute
+61,D,Data,Data
+62,D,Data,Personal data; non-personal data
+63,D,Data,Dataset; data set
+64,D,Data,Training data
+65,D,Data,Validation data
+66,D,Data,Validation data set
+67,D,Data,Testing data
+68,D,Data,Input data
+69,D,Data,Synthetic data
+70,D,Data,Text and data mining (TDM)
+71,D,Data,Data science
+72,E,"Evaluation, performance and trustworthiness",Accuracy
+73,E,"Evaluation, performance and trustworthiness",Calibration; uncertainty quantification
+74,E,"Evaluation, performance and trustworthiness",Performance of an AI system
+75,E,"Evaluation, performance and trustworthiness",Benchmark
+76,E,"Evaluation, performance and trustworthiness",Evaluation; evals
+77,E,"Evaluation, performance and trustworthiness",Capability elicitation; sandbagging
+78,E,"Evaluation, performance and trustworthiness",Testing
+79,E,"Evaluation, performance and trustworthiness",Testing in real-world conditions
+80,E,"Evaluation, performance and trustworthiness",Validation
+81,E,"Evaluation, performance and trustworthiness",Reliability
+82,E,"Evaluation, performance and trustworthiness",Robustness
+83,E,"Evaluation, performance and trustworthiness",Cybersecurity (AI-specific)
+84,E,"Evaluation, performance and trustworthiness",Bias
+85,E,"Evaluation, performance and trustworthiness",Fairness (algorithmic)
+86,E,"Evaluation, performance and trustworthiness",Drift; distribution shift
+87,E,"Evaluation, performance and trustworthiness",Hallucination; confabulation
+88,E,"Evaluation, performance and trustworthiness",Explainability
+89,E,"Evaluation, performance and trustworthiness",Faithfulness (of explanations)
+90,E,"Evaluation, performance and trustworthiness",Interpretability
+91,E,"Evaluation, performance and trustworthiness",Mechanistic interpretability
+92,E,"Evaluation, performance and trustworthiness",Transparency
+93,E,"Evaluation, performance and trustworthiness",Opacity; “black box”
+94,E,"Evaluation, performance and trustworthiness",Human oversight
+95,E,"Evaluation, performance and trustworthiness",Automation bias
+96,E,"Evaluation, performance and trustworthiness",Red teaming; adversarial testing
+97,E,"Evaluation, performance and trustworthiness",Logging; record-keeping; traceability
+98,E,"Evaluation, performance and trustworthiness",AI literacy
+99,F,Risk and regulatory classification,Risk
+100,F,Risk and regulatory classification,Prohibited AI practices
+101,F,Risk and regulatory classification,High-risk AI system
+102,F,Risk and regulatory classification,Systemic risk
+103,F,Risk and regulatory classification,High-impact capabilities
+104,F,Risk and regulatory classification,Intended purpose
+105,F,Risk and regulatory classification,Reasonably foreseeable misuse
+106,F,Risk and regulatory classification,Substantial modification
+107,F,Risk and regulatory classification,Safety component
+108,F,Risk and regulatory classification,Instructions for use
+109,F,Risk and regulatory classification,Conformity assessment
+110,F,Risk and regulatory classification,Notified body
+111,F,Risk and regulatory classification,CE marking
+112,F,Risk and regulatory classification,Harmonised standard; common specification
+113,F,Risk and regulatory classification,Post-market monitoring
+114,F,Risk and regulatory classification,Serious incident
+115,F,Risk and regulatory classification,Fundamental rights impact assessment (FRIA)
+116,F,Risk and regulatory classification,AI regulatory sandbox
+117,G,Value-chain actors and market concepts,Provider
+118,G,Value-chain actors and market concepts,Downstream provider
+119,G,Value-chain actors and market concepts,Deployer
+120,G,Value-chain actors and market concepts,Shadow AI
+121,G,Value-chain actors and market concepts,Importer
+122,G,Value-chain actors and market concepts,Distributor
+123,G,Value-chain actors and market concepts,Authorised representative
+124,G,Value-chain actors and market concepts,Product manufacturer
+125,G,Value-chain actors and market concepts,Operator
+126,G,Value-chain actors and market concepts,Affected person
+127,G,Value-chain actors and market concepts,Placing on the market
+128,G,Value-chain actors and market concepts,Making available on the market
+129,G,Value-chain actors and market concepts,Putting into service
+130,G,Value-chain actors and market concepts,Deployment (technical)
+131,H,Biometrics and synthetic content,Biometric data
+132,H,Biometrics and synthetic content,Biometric identification
+133,H,Biometrics and synthetic content,Biometric verification
+134,H,Biometrics and synthetic content,Remote biometric identification (RBI) system
+135,H,Biometrics and synthetic content,Biometric categorisation system
+136,H,Biometrics and synthetic content,Emotion recognition system
+137,H,Biometrics and synthetic content,Deep fake
+138,H,Biometrics and synthetic content,Watermarking; content provenance
+139,I,Security threats and failure modes,Adversarial example; evasion attack
+140,I,Security threats and failure modes,Data poisoning; model poisoning; backdoor
+141,I,Security threats and failure modes,AI bill of materials (AI-BOM); provenance
+142,I,Security threats and failure modes,Prompt injection
+143,I,Security threats and failure modes,Jailbreak
+144,I,Security threats and failure modes,Model extraction; membership inference; model inversion
+145,I,Security threats and failure modes,Model collapse
+146,I,Security threats and failure modes,Sycophancy
+147,J,Engineering patterns and operations,Agentic workflow
+148,J,Engineering patterns and operations,ReAct (reasoning and acting)
+149,J,Engineering patterns and operations,Plan-and-execute; Plan-and-Solve
+150,J,Engineering patterns and operations,Self-correction; Reflexion
+151,J,Engineering patterns and operations,Multi-agent system
+152,J,Engineering patterns and operations,Agent memory (short-term / long-term)
+153,J,Engineering patterns and operations,Guardrails
+154,J,Engineering patterns and operations,AI gateway
+155,J,Engineering patterns and operations,MLOps; LLMOps
+156,J,Engineering patterns and operations,AI assistant (“copilot” pattern)
+157,J,Engineering patterns and operations,Open-weight vs open-source model
+158,J,Engineering patterns and operations,Model card; system card

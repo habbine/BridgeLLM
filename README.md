@@ -2,6 +2,10 @@
 
 An open glossary mapping where law lags behind AI and emerging technology across EU, French, and US law.
 
+## Help assess the glossary terms
+
+We are asking collaborators to assess 158 AI terms. Start with the [term list](assessment/TERMS.md): click a term, fill in a short form, done.
+
 ## Purpose
 
 This repository collects and organizes legal and regulatory terms relevant to AI, machine learning, data protection, platform law, and emerging technology.

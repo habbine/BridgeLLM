@@ -1,0 +1,69 @@
+name: Assess a term
+description: Give your view on one glossary term (about 2 minutes)
+title: "[?] Term"
+labels: ["assessment"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Answer only what you can; every field except the term and your verdict is optional.
+  - type: input
+    id: term
+    attributes:
+      label: Term
+      description: Already filled in if you came from the term list. Do not change it.
+    validations:
+      required: true
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Should this term be in the glossary?
+      options:
+        - Yes, keep it as it is
+        - Yes, but rename it
+        - Yes, but merge it with another term
+        - Yes, but split it into several terms
+        - No, remove it
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: expertise
+    attributes:
+      label: Your field (helps us weigh the view)
+      options:
+        - Law
+        - Machine learning / AI research
+        - Software / engineering
+        - Policy / regulation
+        - Other
+    validations:
+      required: false
+  - type: textarea
+    id: assessment
+    attributes:
+      label: Your assessment
+      description: What is right, wrong, unclear, missing or misleading about how this term is used? Plain language is fine.
+    validations:
+      required: false
+  - type: textarea
+    id: wording
+    attributes:
+      label: Suggested wording (optional)
+      description: If you would define or rename the term differently, write it here.
+    validations:
+      required: false
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources (optional)
+      description: Legal provisions, case law, standards, papers or links. Exact article or page numbers help most.
+    validations:
+      required: false
+  - type: checkboxes
+    id: licence
+    attributes:
+      label: Licence
+      options:
+        - label: I agree that my contribution may be published under this repository's licence.
+          required: true
