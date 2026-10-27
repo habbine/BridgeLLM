@@ -68,7 +68,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full process.
 
 ## License
 
-This repository uses two licenses:
+This repository uses three licensing regimes: two licenses (below) and a reserved-rights notice for the draft definitions.
 
 - **Content** (assessments, other contributions, and the material already in this repository): [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE-CONTENT). Please credit "AI Legal Glossary contributors, https://github.com/habbine/ai-legal-glossary".
 - **Code** (`src/`, `tests/`, `.github/workflows/`): [MIT License](LICENSE).
