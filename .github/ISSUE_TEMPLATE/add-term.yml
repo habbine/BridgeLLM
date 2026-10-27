@@ -6,26 +6,26 @@ body:
   - type: input
     id: term
     attributes:
-      label: Term
+      label: "Term"
     validations:
       required: true
   - type: textarea
     id: why
     attributes:
-      label: Why should it be added?
+      label: "Why should it be added?"
       description: Where is it used (law, research, industry) and what would be lost without it?
     validations:
       required: true
   - type: textarea
     id: sources
     attributes:
-      label: Sources (optional)
+      label: "Sources (optional)"
     validations:
       required: false
   - type: checkboxes
     id: licence
     attributes:
-      label: Licence
+      label: "Licence"
       options:
-        - label: I agree that my contribution may be published under this repository's licence.
+        - label: "I grant the maintainers a non-exclusive, perpetual, worldwide licence to use, adapt and publish my contribution (including in a printed or online book), and I confirm that I have the right to do so."
           required: true

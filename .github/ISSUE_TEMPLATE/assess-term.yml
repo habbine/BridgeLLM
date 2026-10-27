@@ -1,69 +1,152 @@
 name: Assess a term
-description: Give your view on one glossary term (about 2 minutes)
+description: Give your view on one glossary term (about 5 minutes)
 title: "[?] Term"
 labels: ["assessment"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you. Answer only what you can; every field except the term and your verdict is optional.
+        Thank you. Please read the [scoring guide](https://github.com/habbine/ai-legal-glossary/blob/main/assessment/RUBRIC.md) first, and **assess before reading other people's assessments of this term.** Only the term, your verdict, your field, the listing choice and the licence box are required.
   - type: input
     id: term
     attributes:
-      label: Term
+      label: "Term"
       description: Already filled in if you came from the term list. Do not change it.
     validations:
       required: true
   - type: dropdown
     id: verdict
     attributes:
-      label: Should this term be in the glossary?
+      label: "Should this term be in the glossary?"
       options:
-        - Yes, keep it as it is
-        - Yes, but rename it
-        - Yes, but merge it with another term
-        - Yes, but split it into several terms
-        - No, remove it
-        - Not sure
+        - "Yes, keep it as it is"
+        - "Yes, but rename it"
+        - "Yes, but merge it with another term"
+        - "Yes, but split it into several terms"
+        - "No, remove it"
+        - "Not sure"
     validations:
       required: true
   - type: dropdown
-    id: expertise
+    id: field
     attributes:
-      label: Your field (helps us weigh the view)
+      label: "Your field"
+      description: Helps us check that each term is seen by law, machine learning and engineering.
       options:
-        - Law
-        - Machine learning / AI research
-        - Software / engineering
-        - Policy / regulation
-        - Other
+        - "Law"
+        - "Machine learning or AI research"
+        - "Software engineering"
+        - "Policy or regulation"
+        - "Other"
+    validations:
+      required: true
+  - type: dropdown
+    id: cov_eu
+    attributes:
+      label: "EU: how much law covers this term?"
+      description: See the scoring guide (assessment/RUBRIC.md). Leave on "Don't know" if you are not sure.
+      options:
+        - "0 – Specifically regulated"
+        - "1 – Regulated in part only"
+        - "2 – Only general rules apply (indirect)"
+        - "3 – No legal framework"
+        - "n/a – Technical term, no legal framework needed"
+        - "Don't know"
+      default: 5
+    validations:
+      required: false
+  - type: dropdown
+    id: cov_fr
+    attributes:
+      label: "France: how much law covers this term?"
+      description: See the scoring guide (assessment/RUBRIC.md). Leave on "Don't know" if you are not sure.
+      options:
+        - "0 – Specifically regulated"
+        - "1 – Regulated in part only"
+        - "2 – Only general rules apply (indirect)"
+        - "3 – No legal framework"
+        - "n/a – Technical term, no legal framework needed"
+        - "Don't know"
+      default: 5
+    validations:
+      required: false
+  - type: dropdown
+    id: cov_us
+    attributes:
+      label: "US (federal and state): how much law covers this term?"
+      description: See the scoring guide (assessment/RUBRIC.md). Leave on "Don't know" if you are not sure.
+      options:
+        - "0 – Specifically regulated"
+        - "1 – Regulated in part only"
+        - "2 – Only general rules apply (indirect)"
+        - "3 – No legal framework"
+        - "n/a – Technical term, no legal framework needed"
+        - "Don't know"
+      default: 5
+    validations:
+      required: false
+  - type: dropdown
+    id: timing
+    attributes:
+      label: "Timing of the rules"
+      options:
+        - "Rules apply today"
+        - "Rules adopted but not yet applicable"
+        - "Only proposed"
+        - "Mixed across jurisdictions (explain below)"
+        - "n/a"
+        - "Don't know"
+      default: 5
+    validations:
+      required: false
+  - type: dropdown
+    id: fit
+    attributes:
+      label: "Does the legal definition match how the technology works?"
+      options:
+        - "Matches"
+        - "Partly matches"
+        - "Does not match"
+        - "No legal definition exists"
+        - "Don't know"
+      default: 4
     validations:
       required: false
   - type: textarea
     id: assessment
     attributes:
-      label: Your assessment
+      label: "Your assessment"
       description: What is right, wrong, unclear, missing or misleading about how this term is used? Plain language is fine.
     validations:
       required: false
   - type: textarea
     id: wording
     attributes:
-      label: Suggested wording (optional)
+      label: "Suggested wording (optional)"
       description: If you would define or rename the term differently, write it here.
     validations:
       required: false
   - type: textarea
     id: sources
     attributes:
-      label: Sources (optional)
-      description: Legal provisions, case law, standards, papers or links. Exact article or page numbers help most.
+      label: "Sources"
+      description: Required for any score you give. Article or paragraph numbers, case names, standards, papers or links.
     validations:
       required: false
+  - type: dropdown
+    id: credit
+    attributes:
+      label: "List me as a contributor"
+      description: Your GitHub username is already public on this issue. This only decides whether you appear in the contributors list.
+      options:
+        - "Yes, list my GitHub username"
+        - "No, keep me off the list"
+    validations:
+      required: true
   - type: checkboxes
     id: licence
     attributes:
-      label: Licence
+      label: "Licence"
       options:
-        - label: I agree that my contribution may be published under this repository's licence.
+        - label: "I grant the maintainers a non-exclusive, perpetual, worldwide licence to use, adapt and publish my contribution (including in a printed or online book), and I confirm that I have the right to do so."
           required: true

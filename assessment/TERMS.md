@@ -1,14 +1,19 @@
 # 158 terms to assess
 
-**How to help (about 2 minutes per term):**
+**How to help (about 5 minutes per term):**
 
-1. Find a term below (use the part list, or press `Ctrl/Cmd + F`).
-2. Click the term. A short form opens, with the term already filled in.
-3. Tell us what you think and press **Submit new issue**. You need a free GitHub account.
+1. Read the one-page [scoring guide](RUBRIC.md).
+2. Find a term below (use the part list, or press `Ctrl/Cmd + F`).
+3. Click the term. A form opens with the term already filled in.
+4. Fill in what you can, **add a source for any score**, and press **Submit new issue**. You need a free GitHub account.
 
-You do not need to assess every term. Pick the ones in your field. Several people may assess the same term; that is the point.
+You do not need to assess every term. Pick the ones in your field. We want at least 3 independent assessments per term, ideally from law, machine learning and engineering.
 
-Prefer a spreadsheet? Use [`terms.csv`](terms.csv). Missing a term? [Suggest one](https://github.com/habbine/ai-legal-glossary/issues/new?template=add-term.yml).
+**Phase 1 (now): start with the ★ terms.** They test whether the scoring guide works. Phase 2 opens all terms once the guide is settled.
+
+Please submit your own assessment **before** reading other people's assessments of the same term.
+
+[What still needs reviewers](STATUS.md) · [Spreadsheet version](terms.csv) · [Suggest a missing term](https://github.com/habbine/ai-legal-glossary/issues/new?template=add-term.yml)
 
 ## Jump to a part
 
@@ -28,10 +33,10 @@ Prefer a spreadsheet? Use [`terms.csv`](terms.csv). Missing a term? [Suggest one
 | # | Term (click to assess) |
 |--:|:--|
 | 1 | [Artificial intelligence (AI)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BA%5D%20Artificial%20intelligence%20%28AI%29&term=Artificial%20intelligence%20%28AI%29) |
-| 2 | [AI system](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BA%5D%20AI%20system&term=AI%20system) |
+| 2 | [AI system](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BA%5D%20AI%20system&term=AI%20system) ★ |
 | 3 | [AI model](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BA%5D%20AI%20model&term=AI%20model) |
 | 4 | [Model (generic)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BA%5D%20Model%20%28generic%29&term=Model%20%28generic%29) |
-| 5 | [General-purpose AI model (GPAI model)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BA%5D%20General-purpose%20AI%20model%20%28GPAI%20model%29&term=General-purpose%20AI%20model%20%28GPAI%20model%29) |
+| 5 | [General-purpose AI model (GPAI model)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BA%5D%20General-purpose%20AI%20model%20%28GPAI%20model%29&term=General-purpose%20AI%20model%20%28GPAI%20model%29) ★ |
 | 6 | [GPAI model with systemic risk](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BA%5D%20GPAI%20model%20with%20systemic%20risk&term=GPAI%20model%20with%20systemic%20risk) |
 | 7 | [General-purpose AI system](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BA%5D%20General-purpose%20AI%20system&term=General-purpose%20AI%20system) |
 | 8 | [Foundation model](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BA%5D%20Foundation%20model&term=Foundation%20model) |
@@ -40,7 +45,7 @@ Prefer a spreadsheet? Use [`terms.csv`](terms.csv). Missing a term? [Suggest one
 | 11 | [Multimodal model](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BA%5D%20Multimodal%20model&term=Multimodal%20model) |
 | 12 | [Generative AI](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BA%5D%20Generative%20AI&term=Generative%20AI) |
 | 13 | [Generative vs discriminative model](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BA%5D%20Generative%20vs%20discriminative%20model&term=Generative%20vs%20discriminative%20model) |
-| 14 | [AI agent; agentic AI system](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BA%5D%20AI%20agent%3B%20agentic%20AI%20system&term=AI%20agent%3B%20agentic%20AI%20system) |
+| 14 | [AI agent; agentic AI system](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BA%5D%20AI%20agent%3B%20agentic%20AI%20system&term=AI%20agent%3B%20agentic%20AI%20system) ★ |
 | 15 | [AI application; AI tool](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BA%5D%20AI%20application%3B%20AI%20tool&term=AI%20application%3B%20AI%20tool) |
 | 16 | [Algorithm](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BA%5D%20Algorithm&term=Algorithm) |
 
@@ -59,7 +64,7 @@ Prefer a spreadsheet? Use [`terms.csv`](terms.csv). Missing a term? [Suggest one
 | 25 | [Self-supervised learning](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BB%5D%20Self-supervised%20learning&term=Self-supervised%20learning) |
 | 26 | [Reinforcement learning (RL)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BB%5D%20Reinforcement%20learning%20%28RL%29&term=Reinforcement%20learning%20%28RL%29) |
 | 27 | [Pre-training; post-training](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BB%5D%20Pre-training%3B%20post-training&term=Pre-training%3B%20post-training) |
-| 28 | [Fine-tuning](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BB%5D%20Fine-tuning&term=Fine-tuning) |
+| 28 | [Fine-tuning](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BB%5D%20Fine-tuning&term=Fine-tuning) ★ |
 | 29 | [Instruction tuning; supervised fine-tuning (SFT)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BB%5D%20Instruction%20tuning%3B%20supervised%20fine-tuning%20%28SFT%29&term=Instruction%20tuning%3B%20supervised%20fine-tuning%20%28SFT%29) |
 | 30 | [Reinforcement learning from human feedback (RLHF)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BB%5D%20Reinforcement%20learning%20from%20human%20feedback%20%28RLHF%29&term=Reinforcement%20learning%20from%20human%20feedback%20%28RLHF%29) |
 | 31 | [Constitutional AI; RLAIF](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BB%5D%20Constitutional%20AI%3B%20RLAIF&term=Constitutional%20AI%3B%20RLAIF) |
@@ -89,11 +94,11 @@ Prefer a spreadsheet? Use [`terms.csv`](terms.csv). Missing a term? [Suggest one
 | 50 | [Inference (ML sense)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BC%5D%20Inference%20%28ML%20sense%29&term=Inference%20%28ML%20sense%29) |
 | 51 | [Prompt; system prompt](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BC%5D%20Prompt%3B%20system%20prompt&term=Prompt%3B%20system%20prompt) |
 | 52 | [Decoding; sampling; temperature](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BC%5D%20Decoding%3B%20sampling%3B%20temperature&term=Decoding%3B%20sampling%3B%20temperature) |
-| 53 | [Non-determinism; stochasticity](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BC%5D%20Non-determinism%3B%20stochasticity&term=Non-determinism%3B%20stochasticity) |
+| 53 | [Non-determinism; stochasticity](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BC%5D%20Non-determinism%3B%20stochasticity&term=Non-determinism%3B%20stochasticity) ★ |
 | 54 | [Chain-of-thought; reasoning model](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BC%5D%20Chain-of-thought%3B%20reasoning%20model&term=Chain-of-thought%3B%20reasoning%20model) |
 | 55 | [Retrieval-augmented generation (RAG)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BC%5D%20Retrieval-augmented%20generation%20%28RAG%29&term=Retrieval-augmented%20generation%20%28RAG%29) |
 | 56 | [Tool calling; function calling](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BC%5D%20Tool%20calling%3B%20function%20calling&term=Tool%20calling%3B%20function%20calling) |
-| 57 | [Scaffolding; inference-time compute](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BC%5D%20Scaffolding%3B%20inference-time%20compute&term=Scaffolding%3B%20inference-time%20compute) |
+| 57 | [Scaffolding; inference-time compute](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BC%5D%20Scaffolding%3B%20inference-time%20compute&term=Scaffolding%3B%20inference-time%20compute) ★ |
 | 58 | [KV cache](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BC%5D%20KV%20cache&term=KV%20cache) |
 | 59 | [Speculative decoding](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BC%5D%20Speculative%20decoding&term=Speculative%20decoding) |
 | 60 | [Floating-point operation (FLOP); training compute](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BC%5D%20Floating-point%20operation%20%28FLOP%29%3B%20training%20compute&term=Floating-point%20operation%20%28FLOP%29%3B%20training%20compute) |
@@ -103,7 +108,7 @@ Prefer a spreadsheet? Use [`terms.csv`](terms.csv). Missing a term? [Suggest one
 | # | Term (click to assess) |
 |--:|:--|
 | 61 | [Data](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BD%5D%20Data&term=Data) |
-| 62 | [Personal data; non-personal data](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BD%5D%20Personal%20data%3B%20non-personal%20data&term=Personal%20data%3B%20non-personal%20data) |
+| 62 | [Personal data; non-personal data](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BD%5D%20Personal%20data%3B%20non-personal%20data&term=Personal%20data%3B%20non-personal%20data) ★ |
 | 63 | [Dataset; data set](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BD%5D%20Dataset%3B%20data%20set&term=Dataset%3B%20data%20set) |
 | 64 | [Training data](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BD%5D%20Training%20data&term=Training%20data) |
 | 65 | [Validation data](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BD%5D%20Validation%20data&term=Validation%20data) |
@@ -123,7 +128,7 @@ Prefer a spreadsheet? Use [`terms.csv`](terms.csv). Missing a term? [Suggest one
 | 74 | [Performance of an AI system](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BE%5D%20Performance%20of%20an%20AI%20system&term=Performance%20of%20an%20AI%20system) |
 | 75 | [Benchmark](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BE%5D%20Benchmark&term=Benchmark) |
 | 76 | [Evaluation; evals](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BE%5D%20Evaluation%3B%20evals&term=Evaluation%3B%20evals) |
-| 77 | [Capability elicitation; sandbagging](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BE%5D%20Capability%20elicitation%3B%20sandbagging&term=Capability%20elicitation%3B%20sandbagging) |
+| 77 | [Capability elicitation; sandbagging](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BE%5D%20Capability%20elicitation%3B%20sandbagging&term=Capability%20elicitation%3B%20sandbagging) ★ |
 | 78 | [Testing](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BE%5D%20Testing&term=Testing) |
 | 79 | [Testing in real-world conditions](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BE%5D%20Testing%20in%20real-world%20conditions&term=Testing%20in%20real-world%20conditions) |
 | 80 | [Validation](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BE%5D%20Validation&term=Validation) |
@@ -133,7 +138,7 @@ Prefer a spreadsheet? Use [`terms.csv`](terms.csv). Missing a term? [Suggest one
 | 84 | [Bias](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BE%5D%20Bias&term=Bias) |
 | 85 | [Fairness (algorithmic)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BE%5D%20Fairness%20%28algorithmic%29&term=Fairness%20%28algorithmic%29) |
 | 86 | [Drift; distribution shift](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BE%5D%20Drift%3B%20distribution%20shift&term=Drift%3B%20distribution%20shift) |
-| 87 | [Hallucination; confabulation](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BE%5D%20Hallucination%3B%20confabulation&term=Hallucination%3B%20confabulation) |
+| 87 | [Hallucination; confabulation](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BE%5D%20Hallucination%3B%20confabulation&term=Hallucination%3B%20confabulation) ★ |
 | 88 | [Explainability](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BE%5D%20Explainability&term=Explainability) |
 | 89 | [Faithfulness (of explanations)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BE%5D%20Faithfulness%20%28of%20explanations%29&term=Faithfulness%20%28of%20explanations%29) |
 | 90 | [Interpretability](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BE%5D%20Interpretability&term=Interpretability) |
@@ -152,7 +157,7 @@ Prefer a spreadsheet? Use [`terms.csv`](terms.csv). Missing a term? [Suggest one
 |--:|:--|
 | 99 | [Risk](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BF%5D%20Risk&term=Risk) |
 | 100 | [Prohibited AI practices](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BF%5D%20Prohibited%20AI%20practices&term=Prohibited%20AI%20practices) |
-| 101 | [High-risk AI system](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BF%5D%20High-risk%20AI%20system&term=High-risk%20AI%20system) |
+| 101 | [High-risk AI system](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BF%5D%20High-risk%20AI%20system&term=High-risk%20AI%20system) ★ |
 | 102 | [Systemic risk](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BF%5D%20Systemic%20risk&term=Systemic%20risk) |
 | 103 | [High-impact capabilities](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BF%5D%20High-impact%20capabilities&term=High-impact%20capabilities) |
 | 104 | [Intended purpose](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BF%5D%20Intended%20purpose&term=Intended%20purpose) |
@@ -166,7 +171,7 @@ Prefer a spreadsheet? Use [`terms.csv`](terms.csv). Missing a term? [Suggest one
 | 112 | [Harmonised standard; common specification](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BF%5D%20Harmonised%20standard%3B%20common%20specification&term=Harmonised%20standard%3B%20common%20specification) |
 | 113 | [Post-market monitoring](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BF%5D%20Post-market%20monitoring&term=Post-market%20monitoring) |
 | 114 | [Serious incident](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BF%5D%20Serious%20incident&term=Serious%20incident) |
-| 115 | [Fundamental rights impact assessment (FRIA)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BF%5D%20Fundamental%20rights%20impact%20assessment%20%28FRIA%29&term=Fundamental%20rights%20impact%20assessment%20%28FRIA%29) |
+| 115 | [Fundamental rights impact assessment (FRIA)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BF%5D%20Fundamental%20rights%20impact%20assessment%20%28FRIA%29&term=Fundamental%20rights%20impact%20assessment%20%28FRIA%29) ★ |
 | 116 | [AI regulatory sandbox](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BF%5D%20AI%20regulatory%20sandbox&term=AI%20regulatory%20sandbox) |
 
 ## G. Value-chain actors and market concepts
@@ -175,7 +180,7 @@ Prefer a spreadsheet? Use [`terms.csv`](terms.csv). Missing a term? [Suggest one
 |--:|:--|
 | 117 | [Provider](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BG%5D%20Provider&term=Provider) |
 | 118 | [Downstream provider](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BG%5D%20Downstream%20provider&term=Downstream%20provider) |
-| 119 | [Deployer](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BG%5D%20Deployer&term=Deployer) |
+| 119 | [Deployer](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BG%5D%20Deployer&term=Deployer) ★ |
 | 120 | [Shadow AI](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BG%5D%20Shadow%20AI&term=Shadow%20AI) |
 | 121 | [Importer](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BG%5D%20Importer&term=Importer) |
 | 122 | [Distributor](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BG%5D%20Distributor&term=Distributor) |
@@ -198,7 +203,7 @@ Prefer a spreadsheet? Use [`terms.csv`](terms.csv). Missing a term? [Suggest one
 | 134 | [Remote biometric identification (RBI) system](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BH%5D%20Remote%20biometric%20identification%20%28RBI%29%20system&term=Remote%20biometric%20identification%20%28RBI%29%20system) |
 | 135 | [Biometric categorisation system](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BH%5D%20Biometric%20categorisation%20system&term=Biometric%20categorisation%20system) |
 | 136 | [Emotion recognition system](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BH%5D%20Emotion%20recognition%20system&term=Emotion%20recognition%20system) |
-| 137 | [Deep fake](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BH%5D%20Deep%20fake&term=Deep%20fake) |
+| 137 | [Deep fake](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BH%5D%20Deep%20fake&term=Deep%20fake) ★ |
 | 138 | [Watermarking; content provenance](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BH%5D%20Watermarking%3B%20content%20provenance&term=Watermarking%3B%20content%20provenance) |
 
 ## I. Security threats and failure modes
@@ -208,7 +213,7 @@ Prefer a spreadsheet? Use [`terms.csv`](terms.csv). Missing a term? [Suggest one
 | 139 | [Adversarial example; evasion attack](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BI%5D%20Adversarial%20example%3B%20evasion%20attack&term=Adversarial%20example%3B%20evasion%20attack) |
 | 140 | [Data poisoning; model poisoning; backdoor](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BI%5D%20Data%20poisoning%3B%20model%20poisoning%3B%20backdoor&term=Data%20poisoning%3B%20model%20poisoning%3B%20backdoor) |
 | 141 | [AI bill of materials (AI-BOM); provenance](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BI%5D%20AI%20bill%20of%20materials%20%28AI-BOM%29%3B%20provenance&term=AI%20bill%20of%20materials%20%28AI-BOM%29%3B%20provenance) |
-| 142 | [Prompt injection](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BI%5D%20Prompt%20injection&term=Prompt%20injection) |
+| 142 | [Prompt injection](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BI%5D%20Prompt%20injection&term=Prompt%20injection) ★ |
 | 143 | [Jailbreak](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BI%5D%20Jailbreak&term=Jailbreak) |
 | 144 | [Model extraction; membership inference; model inversion](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BI%5D%20Model%20extraction%3B%20membership%20inference%3B%20model%20inversion&term=Model%20extraction%3B%20membership%20inference%3B%20model%20inversion) |
 | 145 | [Model collapse](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BI%5D%20Model%20collapse&term=Model%20collapse) |
@@ -228,7 +233,7 @@ Prefer a spreadsheet? Use [`terms.csv`](terms.csv). Missing a term? [Suggest one
 | 154 | [AI gateway](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BJ%5D%20AI%20gateway&term=AI%20gateway) |
 | 155 | [MLOps; LLMOps](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BJ%5D%20MLOps%3B%20LLMOps&term=MLOps%3B%20LLMOps) |
 | 156 | [AI assistant (“copilot” pattern)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BJ%5D%20AI%20assistant%20%28%E2%80%9Ccopilot%E2%80%9D%20pattern%29&term=AI%20assistant%20%28%E2%80%9Ccopilot%E2%80%9D%20pattern%29) |
-| 157 | [Open-weight vs open-source model](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BJ%5D%20Open-weight%20vs%20open-source%20model&term=Open-weight%20vs%20open-source%20model) |
+| 157 | [Open-weight vs open-source model](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BJ%5D%20Open-weight%20vs%20open-source%20model&term=Open-weight%20vs%20open-source%20model) ★ |
 | 158 | [Model card; system card](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BJ%5D%20Model%20card%3B%20system%20card&term=Model%20card%3B%20system%20card) |
 
 [Back to top](#158-terms-to-assess)
