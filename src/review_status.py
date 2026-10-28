@@ -77,6 +77,7 @@ def load_terms(path=None):
     for r in rows:
         r["id"] = int(r["id"])
         r["calibration"] = r["calibration"] == "yes"
+        r["extended"] = bool(r.get("source"))  # Part K: terms added from a published glossary
     return rows
 
 
@@ -166,18 +167,24 @@ def needs(recs):
 def render_status(records, terms):
     pt = per_term(records)
     reviewers = {r["login"].lower() for r in records}
-    complete = sum(1 for t in terms if needs(pt[t["id"]]) == (0, []))
+    def is_done(t):
+        return needs(pt[t["id"]]) == (0, [])
+
+    core = [t for t in terms if not t["extended"]]
+    extd = [t for t in terms if t["extended"]]
     empty = sum(1 for t in terms if not pt[t["id"]])
     cal = [t for t in terms if t["calibration"]]
-    cal_done = sum(1 for t in cal if needs(pt[t["id"]]) == (0, []))
+    cal_done = sum(1 for t in cal if is_done(t))
 
     L = ["# Review status", ""]
     L.append("Generated automatically. Scores are not shown here while the first pass is open, "
              "so they do not influence later reviewers.\n")
     L.append(f"- Reviewers so far: **{len(reviewers)}**")
     L.append(f"- Assessments: **{len(records)}**")
-    L.append(f"- Terms fully covered (at least {TARGET} assessments, with law, machine learning and "
-             f"software engineering all represented): **{complete} of {len(terms)}**")
+    L.append(f"- Core terms fully covered (at least {TARGET} assessments, with law, machine learning and "
+             f"software engineering all represented): **{sum(map(is_done, core))} of {len(core)}**")
+    if extd:
+        L.append(f"- Extended terms (Part K) fully covered: **{sum(map(is_done, extd))} of {len(extd)}**")
     L.append(f"- Terms with no assessment yet: **{empty}**")
     L.append(f"- Phase 1 (★ calibration terms) fully covered: **{cal_done} of {len(cal)}**\n")
 
@@ -199,7 +206,7 @@ def render_status(records, terms):
 
     head = ["| # | Term | Assessments | Fields so far | Still needed |", "|--:|:--|--:|:--|:--|"]
     todo = [t for t in terms if needs(pt[t["id"]]) != (0, [])]
-    todo.sort(key=lambda t: (not t["calibration"], len(pt[t["id"]]), t["id"]))
+    todo.sort(key=lambda t: (t["extended"], not t["calibration"], len(pt[t["id"]]), t["id"]))
     L.append("## Terms that need reviewers\n")
     L += head + [row(t) for t in todo] if todo else ["Every term is covered."]
     L.append("\n## All terms\n")

@@ -1,4 +1,4 @@
-# 158 terms to assess
+# 347 terms to assess
 
 **How to help (about 5 minutes per term):**
 
@@ -7,9 +7,11 @@
 3. Click the term. A form opens with the term already filled in.
 4. Fill in what you can, **add a source for any score**, and press **Submit new issue**. You need a free GitHub account.
 
-You do not need to assess every term. Pick the ones in your field. We want at least 3 independent assessments per term, ideally from law, machine learning and engineering.
+The list has 158 core terms (Parts A to J) and 189 extended terms (Part K). You do not need to assess every term. Pick the ones in your field. We want at least 3 independent assessments per term, ideally from law, machine learning and engineering. Core terms come first.
 
-**Phase 1 (now): start with the ★ terms.** They test whether the scoring guide works. Phase 2 opens all terms once the guide is settled.
+**Phase 1 (now): start with the ★ terms.** They test whether the scoring guide works. Phase 2 opens the core terms once the guide is settled; Part K follows.
+
+**Part K** lists 189 terms taken from the glossary of Philip Kiely, *Inference Engineering* (Baseten Books, 2026), Appendix A. Only the term names are listed here, not the book's definitions. Many are purely technical (hardware, software, products); for those, "n/a" is a valid answer.
 
 Please submit your own assessment **before** reading other people's assessments of the same term.
 
@@ -27,6 +29,7 @@ Please submit your own assessment **before** reading other people's assessments 
 - [H. Biometrics and synthetic content](#h-biometrics-and-synthetic-content) (8 terms)
 - [I. Security threats and failure modes](#i-security-threats-and-failure-modes) (8 terms)
 - [J. Engineering patterns and operations](#j-engineering-patterns-and-operations) (12 terms)
+- [K. Added from Kiely, Inference Engineering (2026), Appendix A](#k-added-from-kiely-inference-engineering-2026-appendix-a) (189 terms)
 
 ## A. Foundational concepts
 
@@ -236,4 +239,200 @@ Please submit your own assessment **before** reading other people's assessments 
 | 157 | [Open-weight vs open-source model](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BJ%5D%20Open-weight%20vs%20open-source%20model&term=Open-weight%20vs%20open-source%20model) ★ |
 | 158 | [Model card; system card](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BJ%5D%20Model%20card%3B%20system%20card&term=Model%20card%3B%20system%20card) |
 
-[Back to top](#158-terms-to-assess)
+## K. Added from Kiely, Inference Engineering (2026), Appendix A
+
+Terms are in alphabetical order (use `Ctrl/Cmd + F` to find one). Page numbers refer to the book's printed pages in `terms.csv`.
+
+| # | Term (click to assess) |
+|--:|:--|
+| 159 | [Activation function](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Activation%20function&term=Activation%20function) |
+| 160 | [Active-active](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Active-active&term=Active-active) |
+| 161 | [Active-passive](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Active-passive&term=Active-passive) |
+| 162 | [Ada Lovelace (architecture)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Ada%20Lovelace%20%28architecture%29&term=Ada%20Lovelace%20%28architecture%29) |
+| 163 | [AI-native application](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20AI-native%20application&term=AI-native%20application) |
+| 164 | [Ampere (architecture)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Ampere%20%28architecture%29&term=Ampere%20%28architecture%29) |
+| 165 | [Application programming interface (API)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Application%20programming%20interface%20%28API%29&term=Application%20programming%20interface%20%28API%29) |
+| 166 | [Arithmetic intensity](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Arithmetic%20intensity&term=Arithmetic%20intensity) |
+| 167 | [Automatic speech recognition (ASR)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Automatic%20speech%20recognition%20%28ASR%29&term=Automatic%20speech%20recognition%20%28ASR%29) |
+| 168 | [Autoregressive token generation](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Autoregressive%20token%20generation&term=Autoregressive%20token%20generation) |
+| 169 | [Autoscaling](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Autoscaling&term=Autoscaling) |
+| 170 | [Autoscaling window](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Autoscaling%20window&term=Autoscaling%20window) |
+| 171 | [B200](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20B200&term=B200) |
+| 172 | [B300](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20B300&term=B300) |
+| 173 | [Bandwidth](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Bandwidth&term=Bandwidth) |
+| 174 | [Baselines](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Baselines&term=Baselines) |
+| 175 | [Basic linear algebra subprograms (BLAS)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Basic%20linear%20algebra%20subprograms%20%28BLAS%29&term=Basic%20linear%20algebra%20subprograms%20%28BLAS%29) |
+| 176 | [Batch](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Batch&term=Batch) |
+| 177 | [Batch sizing](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Batch%20sizing&term=Batch%20sizing) |
+| 178 | [Benchmark (intelligence)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Benchmark%20%28intelligence%29&term=Benchmark%20%28intelligence%29) |
+| 179 | [Benchmark (performance)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Benchmark%20%28performance%29&term=Benchmark%20%28performance%29) |
+| 180 | [BF16](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20BF16&term=BF16) |
+| 181 | [Bin packing (multi-cloud)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Bin%20packing%20%28multi-cloud%29&term=Bin%20packing%20%28multi-cloud%29) |
+| 182 | [Blackwell (architecture)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Blackwell%20%28architecture%29&term=Blackwell%20%28architecture%29) |
+| 183 | [Blue-green deployment](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Blue-green%20deployment&term=Blue-green%20deployment) |
+| 184 | [Cache-aware routing](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Cache-aware%20routing&term=Cache-aware%20routing) |
+| 185 | [Canary deployment](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Canary%20deployment&term=Canary%20deployment) |
+| 186 | [Causal language model (CLM)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Causal%20language%20model%20%28CLM%29&term=Causal%20language%20model%20%28CLM%29) |
+| 187 | [Central processing unit (CPU)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Central%20processing%20unit%20%28CPU%29&term=Central%20processing%20unit%20%28CPU%29) |
+| 188 | [Chat template](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Chat%20template&term=Chat%20template) |
+| 189 | [Chunked prefill](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Chunked%20prefill&term=Chunked%20prefill) |
+| 190 | [Classifier-free guidance](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Classifier-free%20guidance&term=Classifier-free%20guidance) |
+| 191 | [CLIP (text encoder)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20CLIP%20%28text%20encoder%29&term=CLIP%20%28text%20encoder%29) |
+| 192 | [Closed model](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Closed%20model&term=Closed%20model) |
+| 193 | [Cold start](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Cold%20start&term=Cold%20start) |
+| 194 | [ComfyUI](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20ComfyUI&term=ComfyUI) |
+| 195 | [Compute-bound](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Compute-bound&term=Compute-bound) |
+| 196 | [Context parallelism (CP)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Context%20parallelism%20%28CP%29&term=Context%20parallelism%20%28CP%29) |
+| 197 | [Continuous batching; in-flight batching](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Continuous%20batching%3B%20in-flight%20batching&term=Continuous%20batching%3B%20in-flight%20batching) |
+| 198 | [Control plane (multi-cloud)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Control%20plane%20%28multi-cloud%29&term=Control%20plane%20%28multi-cloud%29) |
+| 199 | [Core (CUDA)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Core%20%28CUDA%29&term=Core%20%28CUDA%29) |
+| 200 | [Core (Tensor)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Core%20%28Tensor%29&term=Core%20%28Tensor%29) |
+| 201 | [Cross-attention](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Cross-attention&term=Cross-attention) |
+| 202 | [cuBLAS](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20cuBLAS&term=cuBLAS) |
+| 203 | [CUDA](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20CUDA&term=CUDA) |
+| 204 | [CUDA driver](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20CUDA%20driver&term=CUDA%20driver) |
+| 205 | [CUDA graph](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20CUDA%20graph&term=CUDA%20graph) |
+| 206 | [CUDA kernel](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20CUDA%20kernel&term=CUDA%20kernel) |
+| 207 | [CUDA runtime](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20CUDA%20runtime&term=CUDA%20runtime) |
+| 208 | [cuDNN](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20cuDNN&term=cuDNN) |
+| 209 | [CuTe](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20CuTe&term=CuTe) |
+| 210 | [CUTLASS](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20CUTLASS&term=CUTLASS) |
+| 211 | [Data sovereignty](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Data%20sovereignty&term=Data%20sovereignty) |
+| 212 | [Decode](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Decode&term=Decode) |
+| 213 | [DeepGEMM](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20DeepGEMM&term=DeepGEMM) |
+| 214 | [Denoising model](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Denoising%20model&term=Denoising%20model) |
+| 215 | [Diarization](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Diarization&term=Diarization) |
+| 216 | [Diffusers (library)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Diffusers%20%28library%29&term=Diffusers%20%28library%29) |
+| 217 | [Disaggregation](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Disaggregation&term=Disaggregation) |
+| 218 | [Distillation](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Distillation&term=Distillation) |
+| 219 | [Docker](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Docker&term=Docker) |
+| 220 | [Dockerfile](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Dockerfile&term=Dockerfile) |
+| 221 | [Dynamic batching](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Dynamic%20batching&term=Dynamic%20batching) |
+| 222 | [Dynamic range (quantisation)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Dynamic%20range%20%28quantisation%29&term=Dynamic%20range%20%28quantisation%29) |
+| 223 | [EAGLE (speculation)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20EAGLE%20%28speculation%29&term=EAGLE%20%28speculation%29) |
+| 224 | [Elo (quality meta-metric)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Elo%20%28quality%20meta-metric%29&term=Elo%20%28quality%20meta-metric%29) |
+| 225 | [Embedding model](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Embedding%20model&term=Embedding%20model) |
+| 226 | [Encoder](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Encoder&term=Encoder) |
+| 227 | [Expert parallelism (EP)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Expert%20parallelism%20%28EP%29&term=Expert%20parallelism%20%28EP%29) |
+| 228 | [Few-step image generation](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Few-step%20image%20generation&term=Few-step%20image%20generation) |
+| 229 | [Feynman (architecture)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Feynman%20%28architecture%29&term=Feynman%20%28architecture%29) |
+| 230 | [FlashAttention](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20FlashAttention&term=FlashAttention) |
+| 231 | [Floating-point data formats](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Floating-point%20data%20formats&term=Floating-point%20data%20formats) |
+| 232 | [FLOPS](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20FLOPS&term=FLOPS) |
+| 233 | [GB200](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20GB200&term=GB200) |
+| 234 | [General matrix-matrix multiplication (GEMM)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20General%20matrix-matrix%20multiplication%20%28GEMM%29&term=General%20matrix-matrix%20multiplication%20%28GEMM%29) |
+| 235 | [Generative pretrained transformer (GPT)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Generative%20pretrained%20transformer%20%28GPT%29&term=Generative%20pretrained%20transformer%20%28GPT%29) |
+| 236 | [GH200](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20GH200&term=GH200) |
+| 237 | [Goodhart’s Law](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Goodhart%E2%80%99s%20Law&term=Goodhart%E2%80%99s%20Law) |
+| 238 | [GPU node](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20GPU%20node&term=GPU%20node) |
+| 239 | [Grace CPU](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Grace%20CPU&term=Grace%20CPU) |
+| 240 | [Graphics processing unit (GPU)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Graphics%20processing%20unit%20%28GPU%29&term=Graphics%20processing%20unit%20%28GPU%29) |
+| 241 | [gRPC](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20gRPC&term=gRPC) |
+| 242 | [Head (attention)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Head%20%28attention%29&term=Head%20%28attention%29) |
+| 243 | [High-bandwidth memory (HBM)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20High-bandwidth%20memory%20%28HBM%29&term=High-bandwidth%20memory%20%28HBM%29) |
+| 244 | [Hopper (architecture)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Hopper%20%28architecture%29&term=Hopper%20%28architecture%29) |
+| 245 | [Hyperscaler](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Hyperscaler&term=Hyperscaler) |
+| 246 | [Image generation pipeline](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Image%20generation%20pipeline&term=Image%20generation%20pipeline) |
+| 247 | [Inference engine](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Inference%20engine&term=Inference%20engine) |
+| 248 | [InfiniBand](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20InfiniBand&term=InfiniBand) |
+| 249 | [Input sequence](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Input%20sequence&term=Input%20sequence) |
+| 250 | [Input sequence length (ISL)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Input%20sequence%20length%20%28ISL%29&term=Input%20sequence%20length%20%28ISL%29) |
+| 251 | [Instance (cloud)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Instance%20%28cloud%29&term=Instance%20%28cloud%29) |
+| 252 | [Integer data formats](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Integer%20data%20formats&term=Integer%20data%20formats) |
+| 253 | [Inter-token latency (ITL)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Inter-token%20latency%20%28ITL%29&term=Inter-token%20latency%20%28ITL%29) |
+| 254 | [Iterative denoising (diffusion)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Iterative%20denoising%20%28diffusion%29&term=Iterative%20denoising%20%28diffusion%29) |
+| 255 | [Jitter traffic (bench)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Jitter%20traffic%20%28bench%29&term=Jitter%20traffic%20%28bench%29) |
+| 256 | [Kernel fusion](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Kernel%20fusion&term=Kernel%20fusion) |
+| 257 | [L0/L1/L2 caches (GPU)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20L0%2FL1%2FL2%20caches%20%28GPU%29&term=L0%2FL1%2FL2%20caches%20%28GPU%29) |
+| 258 | [Latency percentiles](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Latency%20percentiles&term=Latency%20percentiles) |
+| 259 | [Latent consistency](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Latent%20consistency&term=Latent%20consistency) |
+| 260 | [Latent space (images/videos)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Latent%20space%20%28images%2Fvideos%29&term=Latent%20space%20%28images%2Fvideos%29) |
+| 261 | [Load testing](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Load%20testing&term=Load%20testing) |
+| 262 | [Local (edge) inference](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Local%20%28edge%29%20inference&term=Local%20%28edge%29%20inference) |
+| 263 | [Logit biasing](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Logit%20biasing&term=Logit%20biasing) |
+| 264 | [Logits](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Logits&term=Logits) |
+| 265 | [Lookahead decoding](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Lookahead%20decoding&term=Lookahead%20decoding) |
+| 266 | [Matmul](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Matmul&term=Matmul) |
+| 267 | [Matryoshka representations (embeddings)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Matryoshka%20representations%20%28embeddings%29&term=Matryoshka%20representations%20%28embeddings%29) |
+| 268 | [Medusa (speculation)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Medusa%20%28speculation%29&term=Medusa%20%28speculation%29) |
+| 269 | [Microscaling formats](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Microscaling%20formats&term=Microscaling%20formats) |
+| 270 | [Model parallelism (overview)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Model%20parallelism%20%28overview%29&term=Model%20parallelism%20%28overview%29) |
+| 271 | [Multi-cloud capacity management](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Multi-cloud%20capacity%20management&term=Multi-cloud%20capacity%20management) |
+| 272 | [Multi-instance GPU (MIG)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Multi-instance%20GPU%20%28MIG%29&term=Multi-instance%20GPU%20%28MIG%29) |
+| 273 | [Multi-node inference](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Multi-node%20inference&term=Multi-node%20inference) |
+| 274 | [Neocloud](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Neocloud&term=Neocloud) |
+| 275 | [Neural audio codec](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Neural%20audio%20codec&term=Neural%20audio%20codec) |
+| 276 | [N-gram speculation](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20N-gram%20speculation&term=N-gram%20speculation) |
+| 277 | [NIM](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20NIM&term=NIM) |
+| 278 | [Node](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Node&term=Node) |
+| 279 | [NVFP4](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20NVFP4&term=NVFP4) |
+| 280 | [NVIDIA Dynamo](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20NVIDIA%20Dynamo&term=NVIDIA%20Dynamo) |
+| 281 | [NVL72](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20NVL72&term=NVL72) |
+| 282 | [NVLink](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20NVLink&term=NVLink) |
+| 283 | [NVSwitch](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20NVSwitch&term=NVSwitch) |
+| 284 | [Offline inference](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Offline%20inference&term=Offline%20inference) |
+| 285 | [Omni-modal](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Omni-modal&term=Omni-modal) |
+| 286 | [Online inference](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Online%20inference&term=Online%20inference) |
+| 287 | [ONNX](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20ONNX&term=ONNX) |
+| 288 | [Open model](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Open%20model&term=Open%20model) |
+| 289 | [Ops](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Ops&term=Ops) |
+| 290 | [Out-of-memory error (OOM)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Out-of-memory%20error%20%28OOM%29&term=Out-of-memory%20error%20%28OOM%29) |
+| 291 | [Output sequence](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Output%20sequence&term=Output%20sequence) |
+| 292 | [Output sequence length (OSL)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Output%20sequence%20length%20%28OSL%29&term=Output%20sequence%20length%20%28OSL%29) |
+| 293 | [PagedAttention](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20PagedAttention&term=PagedAttention) |
+| 294 | [PCIe (GPU form factor)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20PCIe%20%28GPU%20form%20factor%29&term=PCIe%20%28GPU%20form%20factor%29) |
+| 295 | [Perceived TPS](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Perceived%20TPS&term=Perceived%20TPS) |
+| 296 | [Pipeline parallelism (PP)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Pipeline%20parallelism%20%28PP%29&term=Pipeline%20parallelism%20%28PP%29) |
+| 297 | [Prefill](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Prefill&term=Prefill) |
+| 298 | [Prefix caching](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Prefix%20caching&term=Prefix%20caching) |
+| 299 | [PyTorch compile (torch.compile)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20PyTorch%20compile%20%28torch.compile%29&term=PyTorch%20compile%20%28torch.compile%29) |
+| 300 | [PyTorch Profiler](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20PyTorch%20Profiler&term=PyTorch%20Profiler) |
+| 301 | [Quantisation-aware training](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Quantisation-aware%20training&term=Quantisation-aware%20training) |
+| 302 | [Quantisation (post-training)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Quantisation%20%28post-training%29&term=Quantisation%20%28post-training%29) |
+| 303 | [Queue (request)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Queue%20%28request%29&term=Queue%20%28request%29) |
+| 304 | [Real-time factor (RTF)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Real-time%20factor%20%28RTF%29&term=Real-time%20factor%20%28RTF%29) |
+| 305 | [Ring attention](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Ring%20attention&term=Ring%20attention) |
+| 306 | [Roofline model](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Roofline%20model&term=Roofline%20model) |
+| 307 | [Rotary positional embeddings (RoPE)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Rotary%20positional%20embeddings%20%28RoPE%29&term=Rotary%20positional%20embeddings%20%28RoPE%29) |
+| 308 | [Routing (inference)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Routing%20%28inference%29&term=Routing%20%28inference%29) |
+| 309 | [Rubin (architecture)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Rubin%20%28architecture%29&term=Rubin%20%28architecture%29) |
+| 310 | [Scale factor (quantisation)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Scale%20factor%20%28quantisation%29&term=Scale%20factor%20%28quantisation%29) |
+| 311 | [Scale to zero](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Scale%20to%20zero&term=Scale%20to%20zero) |
+| 312 | [SDXL](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20SDXL&term=SDXL) |
+| 313 | [Service level agreement (SLA)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Service%20level%20agreement%20%28SLA%29&term=Service%20level%20agreement%20%28SLA%29) |
+| 314 | [Service level objective (SLO)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Service%20level%20objective%20%28SLO%29&term=Service%20level%20objective%20%28SLO%29) |
+| 315 | [SGLang](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20SGLang&term=SGLang) |
+| 316 | [Shadow traffic](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Shadow%20traffic&term=Shadow%20traffic) |
+| 317 | [SNAC (audio decoder)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20SNAC%20%28audio%20decoder%29&term=SNAC%20%28audio%20decoder%29) |
+| 318 | [Softmax](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Softmax&term=Softmax) |
+| 319 | [Sparsity (FLOPS)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Sparsity%20%28FLOPS%29&term=Sparsity%20%28FLOPS%29) |
+| 320 | [Special function unit (SFU)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Special%20function%20unit%20%28SFU%29&term=Special%20function%20unit%20%28SFU%29) |
+| 321 | [Streaming multiprocessor (SM)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Streaming%20multiprocessor%20%28SM%29&term=Streaming%20multiprocessor%20%28SM%29) |
+| 322 | [Structured output](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Structured%20output&term=Structured%20output) |
+| 323 | [SXM (GPU form factor)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20SXM%20%28GPU%20form%20factor%29&term=SXM%20%28GPU%20form%20factor%29) |
+| 324 | [Tensor parallelism (TP)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Tensor%20parallelism%20%28TP%29&term=Tensor%20parallelism%20%28TP%29) |
+| 325 | [TensorRT](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20TensorRT&term=TensorRT) |
+| 326 | [TensorRT-LLM](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20TensorRT-LLM&term=TensorRT-LLM) |
+| 327 | [Thread](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Thread&term=Thread) |
+| 328 | [Throughput](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Throughput&term=Throughput) |
+| 329 | [Time to first byte (TTFB)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Time%20to%20first%20byte%20%28TTFB%29&term=Time%20to%20first%20byte%20%28TTFB%29) |
+| 330 | [Time to first token (TTFT)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Time%20to%20first%20token%20%28TTFT%29&term=Time%20to%20first%20token%20%28TTFT%29) |
+| 331 | [Tokeniser](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Tokeniser&term=Tokeniser) |
+| 332 | [Tokens per second (TPS)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Tokens%20per%20second%20%28TPS%29&term=Tokens%20per%20second%20%28TPS%29) |
+| 333 | [Training](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Training&term=Training) |
+| 334 | [Transformers (library)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Transformers%20%28library%29&term=Transformers%20%28library%29) |
+| 335 | [Triton Inference Server](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Triton%20Inference%20Server&term=Triton%20Inference%20Server) |
+| 336 | [VAE (variational autoencoder)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20VAE%20%28variational%20autoencoder%29&term=VAE%20%28variational%20autoencoder%29) |
+| 337 | [Vector database](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Vector%20database&term=Vector%20database) |
+| 338 | [Vector similarity](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Vector%20similarity&term=Vector%20similarity) |
+| 339 | [Vera CPU](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Vera%20CPU&term=Vera%20CPU) |
+| 340 | [Vision-language model (VLM)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Vision-language%20model%20%28VLM%29&term=Vision-language%20model%20%28VLM%29) |
+| 341 | [vLLM](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20vLLM&term=vLLM) |
+| 342 | [Vocabulary](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Vocabulary&term=Vocabulary) |
+| 343 | [Voice activity detection (VAD)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Voice%20activity%20detection%20%28VAD%29&term=Voice%20activity%20detection%20%28VAD%29) |
+| 344 | [VRAM (device memory)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20VRAM%20%28device%20memory%29&term=VRAM%20%28device%20memory%29) |
+| 345 | [WebSocket](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20WebSocket&term=WebSocket) |
+| 346 | [Weights-only quantisation](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Weights-only%20quantisation&term=Weights-only%20quantisation) |
+| 347 | [Workload plane (multi-cloud)](https://github.com/habbine/ai-legal-glossary/issues/new?template=assess-term.yml&title=%5BK%5D%20Workload%20plane%20%28multi-cloud%29&term=Workload%20plane%20%28multi-cloud%29) |
+
+[Back to top](#347-terms-to-assess)

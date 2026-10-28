@@ -4,7 +4,7 @@ An open glossary mapping where law lags behind AI and emerging technology across
 
 ## Help assess the glossary terms
 
-We are asking collaborators to assess 158 AI terms. Start with the [term list](assessment/TERMS.md): click a term, fill in a short form, done.
+We are asking collaborators to assess 347 AI terms (158 core terms plus 189 extended terms). Start with the [term list](assessment/TERMS.md): click a term, fill in a short form, done.
 
 ## Purpose
 

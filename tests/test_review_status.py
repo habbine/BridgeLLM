@@ -74,6 +74,18 @@ class ReviewStatus(unittest.TestCase):
         self.assertNotIn("Specifically regulated", out)
         self.assertNotIn("EU", out.split("## Terms that need reviewers")[1])
 
+    def test_extended_terms_are_tracked_separately(self):
+        ext = next(t for t in TERMS if t["extended"])
+        core = [t for t in TERMS if not t["extended"]]
+        self.assertGreater(len(core), 0)
+        self.assertFalse(ext["calibration"])
+        out = rs.render_status(rs.build([], TERMS), TERMS)
+        self.assertIn(f"Core terms fully covered", out)
+        self.assertIn("Extended terms (Part K) fully covered", out)
+        # core terms are listed before extended ones in the to-do table
+        todo = out.split("## Terms that need reviewers")[1].split("## All terms")[0]
+        self.assertLess(todo.index(f"| {core[0]['id']} |"), todo.index(f"| {ext['id']} |"))
+
     def test_term_is_covered_with_three_fields(self):
         issues = [issue(i, n, OTHER["term"], field=f) for i, (n, f) in enumerate(
             [("a", "Law"), ("b", "Machine learning or AI research"), ("c", "Software engineering")], 1)]

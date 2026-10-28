@@ -13,7 +13,8 @@ You need a free GitHub account. Assess as many or as few terms as you like.
 ## How the review is organised
 
 - **Phase 1, calibration.** Please start with the ★ terms. We test the scoring guide on them: if reviewers score the same term very differently, the guide's wording needs work, and we fix that before Phase 2.
-- **Phase 2, all terms.** Choose terms in your field. [`assessment/STATUS.md`](assessment/STATUS.md) shows which terms still need reviewers. The aim is at least 3 independent assessments per term, including law, machine learning and software engineering.
+- **Phase 2, core terms.** Parts A to J. Choose terms in your field. [`assessment/STATUS.md`](assessment/STATUS.md) shows which terms still need reviewers. The aim is at least 3 independent assessments per term, including law, machine learning and software engineering.
+- **Part K, extended terms.** 189 further terms from the glossary of a published book on inference engineering (term names only, no definitions). They come after the core terms, and many are purely technical, so "n/a" is a valid answer for them.
 - **Phase 3, proposing changes (later).** Only if Phase 1 shows enough people take part. Reviewers would then see the maintainer's draft definitions and propose changes. Each proposal can be endorsed or disputed with a source. Votes are advisory, the maintainer decides, and every decision is recorded with its reasons in a decision log. Not open yet.
 - **Independence.** Please submit your assessment before reading other people's assessments of the same term. Issues are public, so this relies on goodwill. Scores are not summarised anywhere while the first pass is open, so they do not influence later reviewers. Disagreement between reviewers is useful; it is reported, not averaged away.
 
