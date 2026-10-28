@@ -1,21 +1,32 @@
-# AI Legal Glossary
+# BridgeLLM
 
-An open glossary mapping where law lags behind AI and emerging technology across EU, French, and US law.
+An early-stage open project for an AI that translates between engineering
+and legal language, flags domain false friends, and maps product
+descriptions to the EU AI Act and GDPR, with sources.
 
-## Purpose
+## The problem
 
-This repository collects and organizes legal and regulatory terms relevant to AI, machine learning, data protection, platform law, and emerging technology.
+Engineers and lawyers often use the same words with different meanings.
+"Model", "risk", "provider", "deployment" or "accuracy" can mean one thing
+in a technical specification and another under the AI Act or GDPR. These
+domain false friends cause misunderstandings in product reviews,
+compliance assessments and contracts.
 
-## Scope
+## What BridgeLLM aims to do
 
-- EU law
-- French law
-- US law
-- AI governance
-- digital rights
-- platform accountability
-- liability and risk
-- privacy and data protection
+- Detect domain false friends between engineering and legal vocabulary
+- Map product descriptions to relevant provisions of the EU AI Act and
+  GDPR first, with US law to follow
+- Cite sources for each mapping
+- Generate questions a lawyer should ask, rather than give legal conclusions
+
+## Current status
+
+- A first-draft glossary book is ready, with its concept and structure
+  defined
+- This repository holds the structured glossary seed that BridgeLLM
+  will build on (see Structure below)
+- The AI system itself is planned, not yet built
 
 ## Structure
 
@@ -23,45 +34,36 @@ This repository collects and organizes legal and regulatory terms relevant to AI
 - `docs/taxonomy.md` — category definitions
 - `src/build_glossary.py` — script to generate structured output
 - `data/terms/` — term-specific notes and source material
-- `.github/ISSUE_TEMPLATE/` — contribution and review templates
 
-## Current glossary seed
+## Glossary scope
 
-The glossary now includes a structured seed set of AI and legal concepts across the major categories of the project, including:
+EU, French and US law; AI governance; digital rights; platform
+accountability; liability and risk; privacy and data protection.
 
-- foundational AI concepts
-- learning and model design terms
-- model internals and inference concepts
-- data terminology
-- evaluation and trustworthiness concepts
-- AI risk and regulatory classifications
-- market and value-chain actors
-- biometrics and synthetic content
-- security threats and failure modes
-- engineering patterns and operations
+Categories include foundational AI concepts, model design and internals,
+data terminology, evaluation and trustworthiness, AI risk and regulatory
+classifications, market and value-chain actors, biometrics and synthetic
+content, security threats, and engineering operations.
 
-## Example terms
+## Open call for peer review
 
-- AI Act
-- General Data Protection Regulation (GDPR)
-- Data Protection Authority
-- model governance
-- algorithmic transparency
-- liability regime
-- explainability
-- automated decision-making
+I am looking for:
 
-## Contributing
+- Peer reviewers (legal, technical or both)
+- NLP/LLM engineers and knowledge engineers
+- Partners and sponsors
 
-This project is designed for easy collaboration. The recommended flow is:
-
-- propose a new term via an issue template
-- improve an existing definition via a PR
-- discuss disputed wording in a GitHub issue or discussion
-- add a source or legal reference whenever possible
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the full process.
+To get involved, use the **Research collaboration** option on my
+[contact page](https://www.kimavocat.com/#contact).
 
 ## License
 
-MIT or CC BY 4.0 depending on your preferred project model.
+- **Code:** Apache License 2.0 — see [`LICENSE`](LICENSE).
+- **Glossary content** (`docs/` and `data/terms/`): Creative Commons
+  Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) — see
+  [`LICENSE-CONTENT.md`](LICENSE-CONTENT.md).
+- **Glossary book:** the glossary book by Habbine Estelle KIM is a separate
+  work and is not licensed under this repository. All rights reserved.
+
+Commercial licences for the glossary content are available on request via
+the [contact page](https://www.kimavocat.com/#contact).
