@@ -2,22 +2,7 @@
 
 Status: design proposal. Nothing below is built, except the glossary in the Knowledge layer.
 
-```mermaid
-flowchart TD
-    UI[Input<br/>product description, architecture notes, data flows]
-    INT[Interpretation<br/>term extraction · false-friend detection · rewrite into legal concepts]
-    KNOW[Knowledge layer<br/>versioned glossary · false-friend lexicon · primary texts · light obligation ontology]
-    RET[Retrieval<br/>keyword + embeddings + rules · re-ranking · provenance]
-    REAS[Reasoning<br/>grounded in retrieved text only · abstains when unsure]
-    OUT[Output<br/>false-friend alerts · cited provisions · questions for a lawyer · version stamps]
-    UI --> INT
-    INT --> KNOW
-    INT --> RET
-    KNOW --> REAS
-    RET --> REAS
-    REAS --> OUT
-    OUT --> LAW[Lawyer review]
-```
+![BridgeLLM planned architecture: input, interpretation and routing, knowledge and retrieval layers, reasoning and generation, structured output. Glossary and false-friend lexicon are draft ready; everything else is planned.](images/bridgellm-architecture.png)
 
 ## Changes from the first sketch, and why
 
