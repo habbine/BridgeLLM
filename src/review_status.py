@@ -24,7 +24,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assessment"
-REPO = "habbine/ai-legal-glossary"
+REPO = "habbine/BridgeLLM"
 TARGET = 3  # independent assessments wanted per term
 
 # Labels must match .github/ISSUE_TEMPLATE/assess-term.yml (a test checks this).

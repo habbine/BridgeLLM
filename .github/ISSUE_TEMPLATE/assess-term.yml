@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you. Please read the [scoring guide](https://github.com/habbine/ai-legal-glossary/blob/main/assessment/RUBRIC.md) first, and **assess before reading other people's assessments of this term.** Only the term, your verdict, your field, the listing choice and the licence box are required.
+        Thank you. Please read the [scoring guide](https://github.com/habbine/BridgeLLM/blob/main/assessment/RUBRIC.md) first, and **assess before reading other people's assessments of this term.** Only the term, your verdict, your field, the listing choice and the licence box are required.
   - type: input
     id: term
     attributes:
