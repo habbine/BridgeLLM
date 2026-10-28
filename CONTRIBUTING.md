@@ -1,43 +1,30 @@
-# Contributing
+# Peer review
 
-The quickest way to help is to assess terms from the [term list](assessment/TERMS.md).
+BridgeLLM is at the peer-review stage. We are asking lawyers, engineers and knowledge engineers to read and challenge the glossary, which is the project's first knowledge base.
 
-## Assess a term (no technical skills needed)
+This is a simple call, not an online community. There is no discussion forum and nothing to sign up for.
 
-1. Read the one-page [scoring guide](assessment/RUBRIC.md).
-2. Open [`assessment/TERMS.md`](assessment/TERMS.md) and click a term. A form opens with the term already filled in.
-3. Answer what you can, add a source for every score, and press **Submit new issue**.
+## How it works
 
-You need a free GitHub account. Assess as many or as few terms as you like.
+1. Write to the maintainer, Habbine Kim, via her [GitHub profile](https://github.com/habbine). Say your field and what you could review.
+2. You receive a short extract (for example 20 entries in your field).
+3. You send comments privately, by email or as a marked-up copy.
+4. The maintainer integrates what is useful and records what changed.
+5. If you wish, you are credited by name in the next edition.
 
-## How the review is organised
-
-- **Phase 1, calibration.** Please start with the ★ terms. We test the scoring guide on them: if reviewers score the same term very differently, the guide's wording needs work, and we fix that before Phase 2.
-- **Phase 2, core terms.** Parts A to J. Choose terms in your field. [`assessment/STATUS.md`](assessment/STATUS.md) shows which terms still need reviewers. The aim is at least 3 independent assessments per term, including law, machine learning and software engineering.
-- **Part K, extended terms.** 189 further terms from the glossary of a published book on inference engineering (term names only, no definitions). They come after the core terms, and many are purely technical, so "n/a" is a valid answer for them.
-- **Phase 3, proposing changes (later).** Only if Phase 1 shows enough people take part. Reviewers would then see the maintainer's draft definitions and propose changes. Each proposal can be endorsed or disputed with a source. Votes are advisory, the maintainer decides, and every decision is recorded with its reasons in a decision log. Not open yet.
-- **Independence.** Please submit your assessment before reading other people's assessments of the same term. Issues are public, so this relies on goodwill. Scores are not summarised anywhere while the first pass is open, so they do not influence later reviewers. Disagreement between reviewers is useful; it is reported, not averaged away.
-
-## Credit
-
-Contributors who choose to be listed appear in [`assessment/CONTRIBUTORS.md`](assessment/CONTRIBUTORS.md), in alphabetical order. There is no ranking by number of contributions. How contributors will be credited in any resulting publication is decided by the maintainer and will be stated here before publication.
-
-## Licence
-
-- Assessments, contributions and the other material in this repository are licensed under [CC BY 4.0](LICENSE-CONTENT).
-- Code (`src/`, `tests/`, `.github/workflows/`) is licensed under the [MIT licence](LICENSE).
-- The maintainer's draft definitions live in [`definitions/`](definitions/NOTICE.md) under their own "all rights reserved, review draft" notice. They are not covered by CC BY. They are not published yet (see Phase 3). Public repositories can be forked on GitHub under GitHub's terms; that gives no right beyond GitHub.
-- The assessment form also asks you to grant the maintainers a licence to use, adapt, sublicense and publish your contribution, including in a book. You keep the copyright in what you write.
-
-## Other ways to help
-
-- **Missing term:** use the [Suggest a missing term](../../issues/new?template=add-term.yml) form.
-- **Disagree with an assessment:** reply in that issue's comments.
-- **Prefer a spreadsheet:** [`assessment/terms.csv`](assessment/terms.csv) lists every term. Submit your notes in an issue, one per term.
-- **Pull requests:** welcome for the existing glossary files. Keep one change per pull request.
-
-## Good assessments
+## What helps most
 
 - Say what is wrong or missing, not only that something is.
 - Cite the exact provision, paragraph or page.
 - Separate the legal meaning from the technical meaning when they differ.
+- Say where an entry would mislead an engineer or a lawyer.
+
+## Please do not send
+
+Confidential client or employer material, or personal data.
+
+## Licence and credit
+
+- Reviewers keep the copyright in their comments and allow the maintainer to use them to improve and publish the glossary, including in a book.
+- Repository licences are in the [README](README.md#licensing).
+- Reviewers choose whether and how they are credited.

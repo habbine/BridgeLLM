@@ -1,78 +1,103 @@
-# AI Legal Glossary
+# BridgeLLM
 
-An open glossary mapping where law lags behind AI and emerging technology across EU, French, and US law.
+**BridgeLLM is a proposed open project to build a bilingual AI system that understands both engineering language and legal language.** It is meant to detect domain false friends, and to map a product description to the EU and US rules that may apply (starting with the AI Act and GDPR). Every result cites its sources and ends with precise questions for a lawyer, so product teams can see regulatory exposure early, before they build the wrong thing.
 
-## Help assess the glossary terms
+> **Status: concept and groundwork.** The system itself does not exist yet. What exists is a first draft of a critical glossary book (392 entries, with its structure and method already worked out), which is the project's first knowledge base. It is a draft and has not been peer-reviewed. BridgeLLM gives legal information to help prepare a conversation with a lawyer. It is not legal advice.
 
-We are asking collaborators to assess 347 AI terms (158 core terms plus 189 extended terms). Start with the [term list](assessment/TERMS.md): click a term, fill in a short form, done.
+## The problem
 
-## Purpose
+Engineers and regulators use the same words for different things. "Model", "provider", "training", "personal data", "deployer", "high-risk" and "transparency" each carry one meaning in a codebase and another in a statute. Teams find out late, when a design is already built, and the correction is expensive. Lawyers receive product descriptions full of terms they must first translate.
 
-This repository collects and organizes legal and regulatory terms relevant to AI, machine learning, data protection, platform law, and emerging technology.
+## What BridgeLLM would do
 
-## Scope
+1. **Read** a product description in engineering language.
+2. **Flag false friends**: terms whose technical and legal meanings differ, with both meanings shown side by side.
+3. **Point to the rules** that may be engaged (AI Act, GDPR first; US federal and state rules later), each with a citation to the provision.
+4. **Say what it does not know.** When the text is too thin to tell, it asks instead of guessing.
+5. **Prepare the lawyer conversation**: a short list of precise questions to take to counsel.
 
-- EU law
-- French law
-- US law
-- AI governance
-- digital rights
-- platform accountability
-- liability and risk
-- privacy and data protection
+It never states that a product is "compliant" or "non-compliant".
 
-## Structure
+## How the work is organised
 
-- `docs/glossary.csv` — glossary entries
-- `docs/taxonomy.md` — category definitions
-- `src/build_glossary.py` — script to generate structured output
-- `data/terms/` — term-specific notes and source material
-- `.github/ISSUE_TEMPLATE/` — contribution and review templates
+```mermaid
+flowchart LR
+    A[Glossary<br/>technical and legal meanings<br/>false-friend gaps] --> B[Peer review<br/>lawyers, engineers,<br/>knowledge engineers]
+    B --> C[Reviewed lexicon<br/>versioned, cited]
+    C --> D[Prototype<br/>term detection, retrieval,<br/>cited output]
+    D --> E[Evaluation<br/>with lawyer-reviewed<br/>test cases]
+    E --> F[Open release]
+    B -. corrections .-> A
+    E -. findings .-> C
+```
 
-## Current glossary seed
+| Phase | What | State |
+|---|---|---|
+| 0. Lexicon | Critical glossary of AI terms: plain, technical and legal definitions, with the gap between them | **First draft of the book complete** (idea, structure, 392 entries); awaiting peer review |
+| 1. Peer review | Lawyers and engineers check the definitions and the gaps | **Open call, see below** |
+| 2. Prototype | Term detection, retrieval over the legal texts, cited output | Not started |
+| 3. Evaluation | Lawyer-reviewed test cases; the system must abstain when unsure | Not started |
 
-The glossary now includes a structured seed set of AI and legal concepts across the major categories of the project, including:
+The planned architecture is in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
-- foundational AI concepts
-- learning and model design terms
-- model internals and inference concepts
-- data terminology
-- evaluation and trustworthiness concepts
-- AI risk and regulatory classifications
-- market and value-chain actors
-- biometrics and synthetic content
-- security threats and failure modes
-- engineering patterns and operations
+## Open call for peer review
 
-## Example terms
+We are looking for people to read and challenge the work. We are not asking anyone to join an online discussion or to use GitHub.
 
-- AI Act
-- General Data Protection Regulation (GDPR)
-- Data Protection Authority
-- model governance
-- algorithmic transparency
-- liability regime
-- explainability
-- automated decision-making
+```mermaid
+flowchart TD
+    S[You are interested] --> W[Write to the maintainer<br/>say your field and the parts you could review]
+    W --> R[You receive a short extract<br/>for example 20 entries in your field]
+    R --> C[You comment privately<br/>by email or a marked-up copy]
+    C --> I[The maintainer integrates<br/>and records what changed]
+    I --> K[You are credited<br/>if you wish, in the next edition]
+```
 
-## Contributing
+**Who we want to hear from**
 
-This project is designed for easy collaboration. The recommended flow is:
+- **Lawyers** (EU, French, US) to check the legal definitions and cited provisions.
+- **NLP and LLM engineers** interested in term detection, retrieval and calibrated abstention.
+- **Knowledge engineers** interested in the ontology of obligations and triggers.
+- **Partners and sponsors** who want to close the gap between those who build products and those who regulate them.
 
-- propose a new term via an issue template
-- improve an existing definition via a PR
-- discuss disputed wording in a GitHub issue or discussion
-- add a source or legal reference whenever possible
+**How to reach us:** write to the maintainer, Habbine Kim, via her [GitHub profile](https://github.com/habbine). Say who you are, your field, and what you could review. Reviewers decide how they are credited. Please do not send confidential client material.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the full process.
+## Licensing
 
-## License
+- **Code** (`src/`): [MIT](LICENSE).
+- **Content** (the other material in this repository): [CC BY 4.0](LICENSE-CONTENT).
+- **Draft definitions** ([`definitions/`](definitions/NOTICE.md)): all rights reserved, review draft, not published, and not covered by CC BY. Text and data mining is opted out under Directive (EU) 2019/790, art. 4(3).
 
-This repository uses three licensing regimes: two licenses (below) and a reserved-rights notice for the draft definitions.
+"Open" here describes the method and the code. It does not mean the draft definitions are free to reuse. That decision will be made after peer review and stated here.
 
-- **Content** (assessments, other contributions, and the material already in this repository): [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE-CONTENT). Please credit "AI Legal Glossary contributors, https://github.com/habbine/ai-legal-glossary".
-- **Code** (`src/`, `tests/`, `.github/workflows/`): [MIT License](LICENSE).
+## Name
 
-The maintainer's draft definitions live in [`definitions/`](definitions/NOTICE.md) under their own "all rights reserved, review draft" notice and are **not** covered by CC BY. They are not published yet. Because this repository is public, others can fork it on GitHub under GitHub's terms; that gives no right of reuse beyond GitHub.
+Another, unrelated software package on PyPI is called `bridgellm`. This project is not affiliated with it.
 
-GitHub shows only the MIT license in the sidebar because it detects a single file; the content license above applies to everything that is not code. Contributors keep their copyright and grant the maintainers an additional publication license through the assessment form (see [CONTRIBUTING.md](CONTRIBUTING.md)).
+## What the glossary covers
+
+Each entry gives three definitions (plain language, technical, legal under the EU AI Act), then the **gap** between them, a proposed fix, and French and Korean equivalents. Law covered: EU law first, with French and US comparative notes.
+
+| Part | Subject | Entries |
+|---|---|---|
+| A | Foundational concepts | 16 |
+| B | Learning paradigms, architectures and training methods | 27 |
+| C | Model internals, inference and interaction | 17 |
+| D | Data | 11 |
+| E | Evaluation, performance and trustworthiness | 27 |
+| F | Risk and regulatory classification | 18 |
+| G | Value-chain actors and market concepts | 14 |
+| H | Biometrics and synthetic content | 8 |
+| I | Security threats and failure modes | 8 |
+| J | Engineering patterns and operations | 12 |
+| K | AI engineering and inference infrastructure | 234 |
+| | **Total in the draft book** | **392** |
+
+The repository currently holds the earlier working seed of this list; the full draft is being brought in step by step.
+
+## Repository layout
+
+- `docs/ARCHITECTURE.md`: planned system design
+- `docs/glossary.csv`, `docs/taxonomy.md`: glossary entries and categories
+- `data/terms/`: term notes and source material
+- `src/`: build script

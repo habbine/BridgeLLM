@@ -1,1 +1,5 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
+contact_links:
+  - name: Peer review / contact the maintainer
+    url: https://github.com/habbine
+    about: BridgeLLM peer review is by direct contact, not by issues. See CONTRIBUTING.md.
