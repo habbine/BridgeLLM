@@ -74,6 +74,27 @@ flowchart TD
 
 Another, unrelated software package on PyPI is called `bridgellm`. This project is not affiliated with it.
 
+## What the glossary covers
+
+Each entry gives three definitions (plain language, technical, legal under the EU AI Act), then the **gap** between them, a proposed fix, and French and Korean equivalents. Law covered: EU law first, with French and US comparative notes.
+
+| Part | Subject | Entries |
+|---|---|---|
+| A | Foundational concepts | 16 |
+| B | Learning paradigms, architectures and training methods | 27 |
+| C | Model internals, inference and interaction | 17 |
+| D | Data | 11 |
+| E | Evaluation, performance and trustworthiness | 27 |
+| F | Risk and regulatory classification | 18 |
+| G | Value-chain actors and market concepts | 14 |
+| H | Biometrics and synthetic content | 8 |
+| I | Security threats and failure modes | 8 |
+| J | Engineering patterns and operations | 12 |
+| K | AI engineering and inference infrastructure | 234 |
+| | **Total in the draft book** | **392** |
+
+The repository currently holds the earlier working seed of this list; the full draft is being brought in step by step.
+
 ## Repository layout
 
 - `docs/ARCHITECTURE.md`: planned system design
