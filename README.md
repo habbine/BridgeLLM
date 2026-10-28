@@ -2,7 +2,7 @@
 
 **BridgeLLM is a proposed open project to build a bilingual AI system that understands both engineering language and legal language.** It is meant to detect domain false friends, and to map a product description to the EU and US rules that may apply (starting with the AI Act and GDPR). Every result cites its sources and ends with precise questions for a lawyer, so product teams can see regulatory exposure early, before they build the wrong thing.
 
-> **Status: concept and groundwork.** The system itself does not exist yet. What exists is the glossary below, which is its first knowledge base. BridgeLLM gives legal information to help prepare a conversation with a lawyer. It is not legal advice.
+> **Status: concept and groundwork.** The system itself does not exist yet. What exists is a first draft of a critical glossary book (392 entries, with its structure and method already worked out), which is the project's first knowledge base. It is a draft and has not been peer-reviewed. BridgeLLM gives legal information to help prepare a conversation with a lawyer. It is not legal advice.
 
 ## The problem
 
@@ -33,7 +33,7 @@ flowchart LR
 
 | Phase | What | State |
 |---|---|---|
-| 0. Lexicon | Critical glossary of AI terms: plain, technical and legal definitions, with the gap between them | In progress, under review |
+| 0. Lexicon | Critical glossary of AI terms: plain, technical and legal definitions, with the gap between them | **First draft of the book complete** (idea, structure, 392 entries); awaiting peer review |
 | 1. Peer review | Lawyers and engineers check the definitions and the gaps | **Open call, see below** |
 | 2. Prototype | Term detection, retrieval over the legal texts, cited output | Not started |
 | 3. Evaluation | Lawyer-reviewed test cases; the system must abstain when unsure | Not started |
