@@ -64,8 +64,8 @@ flowchart TD
 
 ## Licensing
 
-- **Code** (`src/`, `tests/`, `.github/workflows/`): [MIT](LICENSE).
-- **Content** (earlier assessments and the other material in this repository): [CC BY 4.0](LICENSE-CONTENT).
+- **Code** (`src/`): [MIT](LICENSE).
+- **Content** (the other material in this repository): [CC BY 4.0](LICENSE-CONTENT).
 - **Draft definitions** ([`definitions/`](definitions/NOTICE.md)): all rights reserved, review draft, not published, and not covered by CC BY. Text and data mining is opted out under Directive (EU) 2019/790, art. 4(3).
 
 "Open" here describes the method and the code. It does not mean the draft definitions are free to reuse. That decision will be made after peer review and stated here.
@@ -100,5 +100,4 @@ The repository currently holds the earlier working seed of this list; the full d
 - `docs/ARCHITECTURE.md`: planned system design
 - `docs/glossary.csv`, `docs/taxonomy.md`: glossary entries and categories
 - `data/terms/`: term notes and source material
-- `src/`, `tests/`: build scripts and tests
-- `assessment/`: the earlier term-assessment material, kept for reference
+- `src/`: build script

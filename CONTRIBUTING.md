@@ -28,7 +28,3 @@ Confidential client or employer material, or personal data.
 - Reviewers keep the copyright in their comments and allow the maintainer to use them to improve and publish the glossary, including in a book.
 - Repository licences are in the [README](README.md#licensing).
 - Reviewers choose whether and how they are credited.
-
-## Earlier material
-
-The `assessment/` folder holds the earlier term-assessment forms. It is kept for reference and is no longer the way to take part.
