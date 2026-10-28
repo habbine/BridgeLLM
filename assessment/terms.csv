@@ -1,0 +1,348 @@
+id,part,part_title,term,calibration,source
+1,A,Foundational concepts,Artificial intelligence (AI),,
+2,A,Foundational concepts,AI system,yes,
+3,A,Foundational concepts,AI model,,
+4,A,Foundational concepts,Model (generic),,
+5,A,Foundational concepts,General-purpose AI model (GPAI model),yes,
+6,A,Foundational concepts,GPAI model with systemic risk,,
+7,A,Foundational concepts,General-purpose AI system,,
+8,A,Foundational concepts,Foundation model,,
+9,A,Foundational concepts,Frontier model,,
+10,A,Foundational concepts,Large language model (LLM),,
+11,A,Foundational concepts,Multimodal model,,
+12,A,Foundational concepts,Generative AI,,
+13,A,Foundational concepts,Generative vs discriminative model,,
+14,A,Foundational concepts,AI agent; agentic AI system,yes,
+15,A,Foundational concepts,AI application; AI tool,,
+16,A,Foundational concepts,Algorithm,,
+17,B,"Learning paradigms, architectures and training methods",Machine learning (ML),,
+18,B,"Learning paradigms, architectures and training methods",Deep learning,,
+19,B,"Learning paradigms, architectures and training methods",Neural network; artificial neural network (ANN),,
+20,B,"Learning paradigms, architectures and training methods",Transformer,,
+21,B,"Learning paradigms, architectures and training methods",Mixture-of-experts (MoE),,
+22,B,"Learning paradigms, architectures and training methods",Attention; self-attention,,
+23,B,"Learning paradigms, architectures and training methods",Supervised learning,,
+24,B,"Learning paradigms, architectures and training methods",Unsupervised learning,,
+25,B,"Learning paradigms, architectures and training methods",Self-supervised learning,,
+26,B,"Learning paradigms, architectures and training methods",Reinforcement learning (RL),,
+27,B,"Learning paradigms, architectures and training methods",Pre-training; post-training,,
+28,B,"Learning paradigms, architectures and training methods",Fine-tuning,yes,
+29,B,"Learning paradigms, architectures and training methods",Instruction tuning; supervised fine-tuning (SFT),,
+30,B,"Learning paradigms, architectures and training methods",Reinforcement learning from human feedback (RLHF),,
+31,B,"Learning paradigms, architectures and training methods",Constitutional AI; RLAIF,,
+32,B,"Learning paradigms, architectures and training methods",Direct preference optimisation (DPO),,
+33,B,"Learning paradigms, architectures and training methods",Alignment,,
+34,B,"Learning paradigms, architectures and training methods",Parameter-efficient fine-tuning (PEFT),,
+35,B,"Learning paradigms, architectures and training methods",Low-rank adaptation (LoRA),,
+36,B,"Learning paradigms, architectures and training methods",Knowledge distillation,,
+37,B,"Learning paradigms, architectures and training methods",Transfer learning,,
+38,B,"Learning paradigms, architectures and training methods",In-context learning; few-shot prompting,,
+39,B,"Learning paradigms, architectures and training methods",Generalisation; overfitting; underfitting,,
+40,B,"Learning paradigms, architectures and training methods",Catastrophic forgetting,,
+41,B,"Learning paradigms, architectures and training methods",Model merging,,
+42,B,"Learning paradigms, architectures and training methods",Quantisation,,
+43,B,"Learning paradigms, architectures and training methods",Scaling laws,,
+44,C,"Model internals, inference and interaction",Parameter,,
+45,C,"Model internals, inference and interaction",Weight,,
+46,C,"Model internals, inference and interaction",Hyperparameter,,
+47,C,"Model internals, inference and interaction",Token; tokenisation,,
+48,C,"Model internals, inference and interaction",Embedding,,
+49,C,"Model internals, inference and interaction",Context window,,
+50,C,"Model internals, inference and interaction",Inference (ML sense),,
+51,C,"Model internals, inference and interaction",Prompt; system prompt,,
+52,C,"Model internals, inference and interaction",Decoding; sampling; temperature,,
+53,C,"Model internals, inference and interaction",Non-determinism; stochasticity,yes,
+54,C,"Model internals, inference and interaction",Chain-of-thought; reasoning model,,
+55,C,"Model internals, inference and interaction",Retrieval-augmented generation (RAG),,
+56,C,"Model internals, inference and interaction",Tool calling; function calling,,
+57,C,"Model internals, inference and interaction",Scaffolding; inference-time compute,yes,
+58,C,"Model internals, inference and interaction",KV cache,,
+59,C,"Model internals, inference and interaction",Speculative decoding,,
+60,C,"Model internals, inference and interaction",Floating-point operation (FLOP); training compute,,
+61,D,Data,Data,,
+62,D,Data,Personal data; non-personal data,yes,
+63,D,Data,Dataset; data set,,
+64,D,Data,Training data,,
+65,D,Data,Validation data,,
+66,D,Data,Validation data set,,
+67,D,Data,Testing data,,
+68,D,Data,Input data,,
+69,D,Data,Synthetic data,,
+70,D,Data,Text and data mining (TDM),,
+71,D,Data,Data science,,
+72,E,"Evaluation, performance and trustworthiness",Accuracy,,
+73,E,"Evaluation, performance and trustworthiness",Calibration; uncertainty quantification,,
+74,E,"Evaluation, performance and trustworthiness",Performance of an AI system,,
+75,E,"Evaluation, performance and trustworthiness",Benchmark,,
+76,E,"Evaluation, performance and trustworthiness",Evaluation; evals,,
+77,E,"Evaluation, performance and trustworthiness",Capability elicitation; sandbagging,yes,
+78,E,"Evaluation, performance and trustworthiness",Testing,,
+79,E,"Evaluation, performance and trustworthiness",Testing in real-world conditions,,
+80,E,"Evaluation, performance and trustworthiness",Validation,,
+81,E,"Evaluation, performance and trustworthiness",Reliability,,
+82,E,"Evaluation, performance and trustworthiness",Robustness,,
+83,E,"Evaluation, performance and trustworthiness",Cybersecurity (AI-specific),,
+84,E,"Evaluation, performance and trustworthiness",Bias,,
+85,E,"Evaluation, performance and trustworthiness",Fairness (algorithmic),,
+86,E,"Evaluation, performance and trustworthiness",Drift; distribution shift,,
+87,E,"Evaluation, performance and trustworthiness",Hallucination; confabulation,yes,
+88,E,"Evaluation, performance and trustworthiness",Explainability,,
+89,E,"Evaluation, performance and trustworthiness",Faithfulness (of explanations),,
+90,E,"Evaluation, performance and trustworthiness",Interpretability,,
+91,E,"Evaluation, performance and trustworthiness",Mechanistic interpretability,,
+92,E,"Evaluation, performance and trustworthiness",Transparency,,
+93,E,"Evaluation, performance and trustworthiness",Opacity; “black box”,,
+94,E,"Evaluation, performance and trustworthiness",Human oversight,,
+95,E,"Evaluation, performance and trustworthiness",Automation bias,,
+96,E,"Evaluation, performance and trustworthiness",Red teaming; adversarial testing,,
+97,E,"Evaluation, performance and trustworthiness",Logging; record-keeping; traceability,,
+98,E,"Evaluation, performance and trustworthiness",AI literacy,,
+99,F,Risk and regulatory classification,Risk,,
+100,F,Risk and regulatory classification,Prohibited AI practices,,
+101,F,Risk and regulatory classification,High-risk AI system,yes,
+102,F,Risk and regulatory classification,Systemic risk,,
+103,F,Risk and regulatory classification,High-impact capabilities,,
+104,F,Risk and regulatory classification,Intended purpose,,
+105,F,Risk and regulatory classification,Reasonably foreseeable misuse,,
+106,F,Risk and regulatory classification,Substantial modification,,
+107,F,Risk and regulatory classification,Safety component,,
+108,F,Risk and regulatory classification,Instructions for use,,
+109,F,Risk and regulatory classification,Conformity assessment,,
+110,F,Risk and regulatory classification,Notified body,,
+111,F,Risk and regulatory classification,CE marking,,
+112,F,Risk and regulatory classification,Harmonised standard; common specification,,
+113,F,Risk and regulatory classification,Post-market monitoring,,
+114,F,Risk and regulatory classification,Serious incident,,
+115,F,Risk and regulatory classification,Fundamental rights impact assessment (FRIA),yes,
+116,F,Risk and regulatory classification,AI regulatory sandbox,,
+117,G,Value-chain actors and market concepts,Provider,,
+118,G,Value-chain actors and market concepts,Downstream provider,,
+119,G,Value-chain actors and market concepts,Deployer,yes,
+120,G,Value-chain actors and market concepts,Shadow AI,,
+121,G,Value-chain actors and market concepts,Importer,,
+122,G,Value-chain actors and market concepts,Distributor,,
+123,G,Value-chain actors and market concepts,Authorised representative,,
+124,G,Value-chain actors and market concepts,Product manufacturer,,
+125,G,Value-chain actors and market concepts,Operator,,
+126,G,Value-chain actors and market concepts,Affected person,,
+127,G,Value-chain actors and market concepts,Placing on the market,,
+128,G,Value-chain actors and market concepts,Making available on the market,,
+129,G,Value-chain actors and market concepts,Putting into service,,
+130,G,Value-chain actors and market concepts,Deployment (technical),,
+131,H,Biometrics and synthetic content,Biometric data,,
+132,H,Biometrics and synthetic content,Biometric identification,,
+133,H,Biometrics and synthetic content,Biometric verification,,
+134,H,Biometrics and synthetic content,Remote biometric identification (RBI) system,,
+135,H,Biometrics and synthetic content,Biometric categorisation system,,
+136,H,Biometrics and synthetic content,Emotion recognition system,,
+137,H,Biometrics and synthetic content,Deep fake,yes,
+138,H,Biometrics and synthetic content,Watermarking; content provenance,,
+139,I,Security threats and failure modes,Adversarial example; evasion attack,,
+140,I,Security threats and failure modes,Data poisoning; model poisoning; backdoor,,
+141,I,Security threats and failure modes,AI bill of materials (AI-BOM); provenance,,
+142,I,Security threats and failure modes,Prompt injection,yes,
+143,I,Security threats and failure modes,Jailbreak,,
+144,I,Security threats and failure modes,Model extraction; membership inference; model inversion,,
+145,I,Security threats and failure modes,Model collapse,,
+146,I,Security threats and failure modes,Sycophancy,,
+147,J,Engineering patterns and operations,Agentic workflow,,
+148,J,Engineering patterns and operations,ReAct (reasoning and acting),,
+149,J,Engineering patterns and operations,Plan-and-execute; Plan-and-Solve,,
+150,J,Engineering patterns and operations,Self-correction; Reflexion,,
+151,J,Engineering patterns and operations,Multi-agent system,,
+152,J,Engineering patterns and operations,Agent memory (short-term / long-term),,
+153,J,Engineering patterns and operations,Guardrails,,
+154,J,Engineering patterns and operations,AI gateway,,
+155,J,Engineering patterns and operations,MLOps; LLMOps,,
+156,J,Engineering patterns and operations,AI assistant (“copilot” pattern),,
+157,J,Engineering patterns and operations,Open-weight vs open-source model,yes,
+158,J,Engineering patterns and operations,Model card; system card,,
+159,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Activation function,,"Kiely, Inference Engineering (2026), p. 211"
+160,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Active-active,,"Kiely, Inference Engineering (2026), p. 211"
+161,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Active-passive,,"Kiely, Inference Engineering (2026), p. 211"
+162,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Ada Lovelace (architecture),,"Kiely, Inference Engineering (2026), p. 211"
+163,K,"Added from Kiely, Inference Engineering (2026), Appendix A",AI-native application,,"Kiely, Inference Engineering (2026), p. 211"
+164,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Ampere (architecture),,"Kiely, Inference Engineering (2026), p. 211"
+165,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Application programming interface (API),,"Kiely, Inference Engineering (2026), p. 211"
+166,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Arithmetic intensity,,"Kiely, Inference Engineering (2026), p. 211"
+167,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Automatic speech recognition (ASR),,"Kiely, Inference Engineering (2026), p. 212"
+168,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Autoregressive token generation,,"Kiely, Inference Engineering (2026), p. 212"
+169,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Autoscaling,,"Kiely, Inference Engineering (2026), p. 212"
+170,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Autoscaling window,,"Kiely, Inference Engineering (2026), p. 212"
+171,K,"Added from Kiely, Inference Engineering (2026), Appendix A",B200,,"Kiely, Inference Engineering (2026), p. 212"
+172,K,"Added from Kiely, Inference Engineering (2026), Appendix A",B300,,"Kiely, Inference Engineering (2026), p. 212"
+173,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Bandwidth,,"Kiely, Inference Engineering (2026), p. 212"
+174,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Baselines,,"Kiely, Inference Engineering (2026), p. 212"
+175,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Basic linear algebra subprograms (BLAS),,"Kiely, Inference Engineering (2026), p. 212"
+176,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Batch,,"Kiely, Inference Engineering (2026), p. 212"
+177,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Batch sizing,,"Kiely, Inference Engineering (2026), p. 212"
+178,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Benchmark (intelligence),,"Kiely, Inference Engineering (2026), p. 213"
+179,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Benchmark (performance),,"Kiely, Inference Engineering (2026), p. 213"
+180,K,"Added from Kiely, Inference Engineering (2026), Appendix A",BF16,,"Kiely, Inference Engineering (2026), p. 213"
+181,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Bin packing (multi-cloud),,"Kiely, Inference Engineering (2026), p. 213"
+182,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Blackwell (architecture),,"Kiely, Inference Engineering (2026), p. 213"
+183,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Blue-green deployment,,"Kiely, Inference Engineering (2026), p. 213"
+184,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Cache-aware routing,,"Kiely, Inference Engineering (2026), p. 213"
+185,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Canary deployment,,"Kiely, Inference Engineering (2026), p. 213"
+186,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Causal language model (CLM),,"Kiely, Inference Engineering (2026), p. 213"
+187,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Central processing unit (CPU),,"Kiely, Inference Engineering (2026), p. 213"
+188,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Chat template,,"Kiely, Inference Engineering (2026), p. 214"
+189,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Chunked prefill,,"Kiely, Inference Engineering (2026), p. 214"
+190,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Classifier-free guidance,,"Kiely, Inference Engineering (2026), p. 214"
+191,K,"Added from Kiely, Inference Engineering (2026), Appendix A",CLIP (text encoder),,"Kiely, Inference Engineering (2026), p. 214"
+192,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Closed model,,"Kiely, Inference Engineering (2026), p. 214"
+193,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Cold start,,"Kiely, Inference Engineering (2026), p. 214"
+194,K,"Added from Kiely, Inference Engineering (2026), Appendix A",ComfyUI,,"Kiely, Inference Engineering (2026), p. 214"
+195,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Compute-bound,,"Kiely, Inference Engineering (2026), p. 214"
+196,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Context parallelism (CP),,"Kiely, Inference Engineering (2026), p. 214"
+197,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Continuous batching; in-flight batching,,"Kiely, Inference Engineering (2026), p. 214"
+198,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Control plane (multi-cloud),,"Kiely, Inference Engineering (2026), p. 215"
+199,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Core (CUDA),,"Kiely, Inference Engineering (2026), p. 215"
+200,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Core (Tensor),,"Kiely, Inference Engineering (2026), p. 215"
+201,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Cross-attention,,"Kiely, Inference Engineering (2026), p. 215"
+202,K,"Added from Kiely, Inference Engineering (2026), Appendix A",cuBLAS,,"Kiely, Inference Engineering (2026), p. 215"
+203,K,"Added from Kiely, Inference Engineering (2026), Appendix A",CUDA,,"Kiely, Inference Engineering (2026), p. 215"
+204,K,"Added from Kiely, Inference Engineering (2026), Appendix A",CUDA driver,,"Kiely, Inference Engineering (2026), p. 215"
+205,K,"Added from Kiely, Inference Engineering (2026), Appendix A",CUDA graph,,"Kiely, Inference Engineering (2026), p. 215"
+206,K,"Added from Kiely, Inference Engineering (2026), Appendix A",CUDA kernel,,"Kiely, Inference Engineering (2026), p. 215"
+207,K,"Added from Kiely, Inference Engineering (2026), Appendix A",CUDA runtime,,"Kiely, Inference Engineering (2026), p. 215"
+208,K,"Added from Kiely, Inference Engineering (2026), Appendix A",cuDNN,,"Kiely, Inference Engineering (2026), p. 215"
+209,K,"Added from Kiely, Inference Engineering (2026), Appendix A",CuTe,,"Kiely, Inference Engineering (2026), p. 215"
+210,K,"Added from Kiely, Inference Engineering (2026), Appendix A",CUTLASS,,"Kiely, Inference Engineering (2026), p. 215"
+211,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Data sovereignty,,"Kiely, Inference Engineering (2026), p. 216"
+212,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Decode,,"Kiely, Inference Engineering (2026), p. 216"
+213,K,"Added from Kiely, Inference Engineering (2026), Appendix A",DeepGEMM,,"Kiely, Inference Engineering (2026), p. 216"
+214,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Denoising model,,"Kiely, Inference Engineering (2026), p. 216"
+215,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Diarization,,"Kiely, Inference Engineering (2026), p. 216"
+216,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Diffusers (library),,"Kiely, Inference Engineering (2026), p. 216"
+217,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Disaggregation,,"Kiely, Inference Engineering (2026), p. 216"
+218,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Distillation,,"Kiely, Inference Engineering (2026), p. 216"
+219,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Docker,,"Kiely, Inference Engineering (2026), p. 216"
+220,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Dockerfile,,"Kiely, Inference Engineering (2026), p. 216"
+221,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Dynamic batching,,"Kiely, Inference Engineering (2026), p. 216"
+222,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Dynamic range (quantisation),,"Kiely, Inference Engineering (2026), p. 216"
+223,K,"Added from Kiely, Inference Engineering (2026), Appendix A",EAGLE (speculation),,"Kiely, Inference Engineering (2026), p. 217"
+224,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Elo (quality meta-metric),,"Kiely, Inference Engineering (2026), p. 217"
+225,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Embedding model,,"Kiely, Inference Engineering (2026), p. 217"
+226,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Encoder,,"Kiely, Inference Engineering (2026), p. 217"
+227,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Expert parallelism (EP),,"Kiely, Inference Engineering (2026), p. 217"
+228,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Few-step image generation,,"Kiely, Inference Engineering (2026), p. 217"
+229,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Feynman (architecture),,"Kiely, Inference Engineering (2026), p. 217"
+230,K,"Added from Kiely, Inference Engineering (2026), Appendix A",FlashAttention,,"Kiely, Inference Engineering (2026), p. 217"
+231,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Floating-point data formats,,"Kiely, Inference Engineering (2026), p. 217"
+232,K,"Added from Kiely, Inference Engineering (2026), Appendix A",FLOPS,,"Kiely, Inference Engineering (2026), p. 218"
+233,K,"Added from Kiely, Inference Engineering (2026), Appendix A",GB200,,"Kiely, Inference Engineering (2026), p. 218"
+234,K,"Added from Kiely, Inference Engineering (2026), Appendix A",General matrix-matrix multiplication (GEMM),,"Kiely, Inference Engineering (2026), p. 218"
+235,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Generative pretrained transformer (GPT),,"Kiely, Inference Engineering (2026), p. 218"
+236,K,"Added from Kiely, Inference Engineering (2026), Appendix A",GH200,,"Kiely, Inference Engineering (2026), p. 218"
+237,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Goodhart’s Law,,"Kiely, Inference Engineering (2026), p. 218"
+238,K,"Added from Kiely, Inference Engineering (2026), Appendix A",GPU node,,"Kiely, Inference Engineering (2026), p. 218"
+239,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Grace CPU,,"Kiely, Inference Engineering (2026), p. 218"
+240,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Graphics processing unit (GPU),,"Kiely, Inference Engineering (2026), p. 219"
+241,K,"Added from Kiely, Inference Engineering (2026), Appendix A",gRPC,,"Kiely, Inference Engineering (2026), p. 219"
+242,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Head (attention),,"Kiely, Inference Engineering (2026), p. 219"
+243,K,"Added from Kiely, Inference Engineering (2026), Appendix A",High-bandwidth memory (HBM),,"Kiely, Inference Engineering (2026), p. 219"
+244,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Hopper (architecture),,"Kiely, Inference Engineering (2026), p. 219"
+245,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Hyperscaler,,"Kiely, Inference Engineering (2026), p. 219"
+246,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Image generation pipeline,,"Kiely, Inference Engineering (2026), p. 219"
+247,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Inference engine,,"Kiely, Inference Engineering (2026), p. 219"
+248,K,"Added from Kiely, Inference Engineering (2026), Appendix A",InfiniBand,,"Kiely, Inference Engineering (2026), p. 219"
+249,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Input sequence,,"Kiely, Inference Engineering (2026), p. 219"
+250,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Input sequence length (ISL),,"Kiely, Inference Engineering (2026), p. 219"
+251,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Instance (cloud),,"Kiely, Inference Engineering (2026), p. 219"
+252,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Integer data formats,,"Kiely, Inference Engineering (2026), p. 220"
+253,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Inter-token latency (ITL),,"Kiely, Inference Engineering (2026), p. 220"
+254,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Iterative denoising (diffusion),,"Kiely, Inference Engineering (2026), p. 220"
+255,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Jitter traffic (bench),,"Kiely, Inference Engineering (2026), p. 220"
+256,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Kernel fusion,,"Kiely, Inference Engineering (2026), p. 220"
+257,K,"Added from Kiely, Inference Engineering (2026), Appendix A",L0/L1/L2 caches (GPU),,"Kiely, Inference Engineering (2026), p. 220"
+258,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Latency percentiles,,"Kiely, Inference Engineering (2026), p. 220"
+259,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Latent consistency,,"Kiely, Inference Engineering (2026), p. 220"
+260,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Latent space (images/videos),,"Kiely, Inference Engineering (2026), p. 221"
+261,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Load testing,,"Kiely, Inference Engineering (2026), p. 221"
+262,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Local (edge) inference,,"Kiely, Inference Engineering (2026), p. 221"
+263,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Logit biasing,,"Kiely, Inference Engineering (2026), p. 221"
+264,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Logits,,"Kiely, Inference Engineering (2026), p. 221"
+265,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Lookahead decoding,,"Kiely, Inference Engineering (2026), p. 221"
+266,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Matmul,,"Kiely, Inference Engineering (2026), p. 221"
+267,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Matryoshka representations (embeddings),,"Kiely, Inference Engineering (2026), p. 221"
+268,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Medusa (speculation),,"Kiely, Inference Engineering (2026), p. 221"
+269,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Microscaling formats,,"Kiely, Inference Engineering (2026), p. 221"
+270,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Model parallelism (overview),,"Kiely, Inference Engineering (2026), p. 222"
+271,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Multi-cloud capacity management,,"Kiely, Inference Engineering (2026), p. 222"
+272,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Multi-instance GPU (MIG),,"Kiely, Inference Engineering (2026), p. 222"
+273,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Multi-node inference,,"Kiely, Inference Engineering (2026), p. 222"
+274,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Neocloud,,"Kiely, Inference Engineering (2026), p. 222"
+275,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Neural audio codec,,"Kiely, Inference Engineering (2026), p. 222"
+276,K,"Added from Kiely, Inference Engineering (2026), Appendix A",N-gram speculation,,"Kiely, Inference Engineering (2026), p. 223"
+277,K,"Added from Kiely, Inference Engineering (2026), Appendix A",NIM,,"Kiely, Inference Engineering (2026), p. 222"
+278,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Node,,"Kiely, Inference Engineering (2026), p. 222"
+279,K,"Added from Kiely, Inference Engineering (2026), Appendix A",NVFP4,,"Kiely, Inference Engineering (2026), p. 222"
+280,K,"Added from Kiely, Inference Engineering (2026), Appendix A",NVIDIA Dynamo,,"Kiely, Inference Engineering (2026), p. 222"
+281,K,"Added from Kiely, Inference Engineering (2026), Appendix A",NVL72,,"Kiely, Inference Engineering (2026), p. 223"
+282,K,"Added from Kiely, Inference Engineering (2026), Appendix A",NVLink,,"Kiely, Inference Engineering (2026), p. 223"
+283,K,"Added from Kiely, Inference Engineering (2026), Appendix A",NVSwitch,,"Kiely, Inference Engineering (2026), p. 223"
+284,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Offline inference,,"Kiely, Inference Engineering (2026), p. 223"
+285,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Omni-modal,,"Kiely, Inference Engineering (2026), p. 223"
+286,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Online inference,,"Kiely, Inference Engineering (2026), p. 223"
+287,K,"Added from Kiely, Inference Engineering (2026), Appendix A",ONNX,,"Kiely, Inference Engineering (2026), p. 223"
+288,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Open model,,"Kiely, Inference Engineering (2026), p. 223"
+289,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Ops,,"Kiely, Inference Engineering (2026), p. 223"
+290,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Out-of-memory error (OOM),,"Kiely, Inference Engineering (2026), p. 223"
+291,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Output sequence,,"Kiely, Inference Engineering (2026), p. 223"
+292,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Output sequence length (OSL),,"Kiely, Inference Engineering (2026), p. 223"
+293,K,"Added from Kiely, Inference Engineering (2026), Appendix A",PagedAttention,,"Kiely, Inference Engineering (2026), p. 224"
+294,K,"Added from Kiely, Inference Engineering (2026), Appendix A",PCIe (GPU form factor),,"Kiely, Inference Engineering (2026), p. 224"
+295,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Perceived TPS,,"Kiely, Inference Engineering (2026), p. 224"
+296,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Pipeline parallelism (PP),,"Kiely, Inference Engineering (2026), p. 224"
+297,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Prefill,,"Kiely, Inference Engineering (2026), p. 224"
+298,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Prefix caching,,"Kiely, Inference Engineering (2026), p. 224"
+299,K,"Added from Kiely, Inference Engineering (2026), Appendix A",PyTorch compile (torch.compile),,"Kiely, Inference Engineering (2026), p. 224"
+300,K,"Added from Kiely, Inference Engineering (2026), Appendix A",PyTorch Profiler,,"Kiely, Inference Engineering (2026), p. 224"
+301,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Quantisation-aware training,,"Kiely, Inference Engineering (2026), p. 225"
+302,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Quantisation (post-training),,"Kiely, Inference Engineering (2026), p. 224"
+303,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Queue (request),,"Kiely, Inference Engineering (2026), p. 225"
+304,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Real-time factor (RTF),,"Kiely, Inference Engineering (2026), p. 225"
+305,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Ring attention,,"Kiely, Inference Engineering (2026), p. 225"
+306,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Roofline model,,"Kiely, Inference Engineering (2026), p. 225"
+307,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Rotary positional embeddings (RoPE),,"Kiely, Inference Engineering (2026), p. 225"
+308,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Routing (inference),,"Kiely, Inference Engineering (2026), p. 225"
+309,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Rubin (architecture),,"Kiely, Inference Engineering (2026), p. 225"
+310,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Scale factor (quantisation),,"Kiely, Inference Engineering (2026), p. 225"
+311,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Scale to zero,,"Kiely, Inference Engineering (2026), p. 226"
+312,K,"Added from Kiely, Inference Engineering (2026), Appendix A",SDXL,,"Kiely, Inference Engineering (2026), p. 226"
+313,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Service level agreement (SLA),,"Kiely, Inference Engineering (2026), p. 226"
+314,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Service level objective (SLO),,"Kiely, Inference Engineering (2026), p. 226"
+315,K,"Added from Kiely, Inference Engineering (2026), Appendix A",SGLang,,"Kiely, Inference Engineering (2026), p. 226"
+316,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Shadow traffic,,"Kiely, Inference Engineering (2026), p. 226"
+317,K,"Added from Kiely, Inference Engineering (2026), Appendix A",SNAC (audio decoder),,"Kiely, Inference Engineering (2026), p. 226"
+318,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Softmax,,"Kiely, Inference Engineering (2026), p. 226"
+319,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Sparsity (FLOPS),,"Kiely, Inference Engineering (2026), p. 226"
+320,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Special function unit (SFU),,"Kiely, Inference Engineering (2026), p. 226"
+321,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Streaming multiprocessor (SM),,"Kiely, Inference Engineering (2026), p. 226"
+322,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Structured output,,"Kiely, Inference Engineering (2026), p. 227"
+323,K,"Added from Kiely, Inference Engineering (2026), Appendix A",SXM (GPU form factor),,"Kiely, Inference Engineering (2026), p. 227"
+324,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Tensor parallelism (TP),,"Kiely, Inference Engineering (2026), p. 227"
+325,K,"Added from Kiely, Inference Engineering (2026), Appendix A",TensorRT,,"Kiely, Inference Engineering (2026), p. 227"
+326,K,"Added from Kiely, Inference Engineering (2026), Appendix A",TensorRT-LLM,,"Kiely, Inference Engineering (2026), p. 227"
+327,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Thread,,"Kiely, Inference Engineering (2026), p. 227"
+328,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Throughput,,"Kiely, Inference Engineering (2026), p. 227"
+329,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Time to first byte (TTFB),,"Kiely, Inference Engineering (2026), p. 227"
+330,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Time to first token (TTFT),,"Kiely, Inference Engineering (2026), p. 227"
+331,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Tokeniser,,"Kiely, Inference Engineering (2026), p. 227"
+332,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Tokens per second (TPS),,"Kiely, Inference Engineering (2026), p. 228"
+333,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Training,,"Kiely, Inference Engineering (2026), p. 228"
+334,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Transformers (library),,"Kiely, Inference Engineering (2026), p. 228"
+335,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Triton Inference Server,,"Kiely, Inference Engineering (2026), p. 228"
+336,K,"Added from Kiely, Inference Engineering (2026), Appendix A",VAE (variational autoencoder),,"Kiely, Inference Engineering (2026), p. 228"
+337,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Vector database,,"Kiely, Inference Engineering (2026), p. 228"
+338,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Vector similarity,,"Kiely, Inference Engineering (2026), p. 228"
+339,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Vera CPU,,"Kiely, Inference Engineering (2026), p. 228"
+340,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Vision-language model (VLM),,"Kiely, Inference Engineering (2026), p. 228"
+341,K,"Added from Kiely, Inference Engineering (2026), Appendix A",vLLM,,"Kiely, Inference Engineering (2026), p. 228"
+342,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Vocabulary,,"Kiely, Inference Engineering (2026), p. 228"
+343,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Voice activity detection (VAD),,"Kiely, Inference Engineering (2026), p. 229"
+344,K,"Added from Kiely, Inference Engineering (2026), Appendix A",VRAM (device memory),,"Kiely, Inference Engineering (2026), p. 229"
+345,K,"Added from Kiely, Inference Engineering (2026), Appendix A",WebSocket,,"Kiely, Inference Engineering (2026), p. 229"
+346,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Weights-only quantisation,,"Kiely, Inference Engineering (2026), p. 229"
+347,K,"Added from Kiely, Inference Engineering (2026), Appendix A",Workload plane (multi-cloud),,"Kiely, Inference Engineering (2026), p. 229"

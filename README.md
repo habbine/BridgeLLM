@@ -2,6 +2,10 @@
 
 An open glossary mapping where law lags behind AI and emerging technology across EU, French, and US law.
 
+## Help assess the glossary terms
+
+We are asking collaborators to assess 347 AI terms (158 core terms plus 189 extended terms). Start with the [term list](assessment/TERMS.md): click a term, fill in a short form, done.
+
 ## Purpose
 
 This repository collects and organizes legal and regulatory terms relevant to AI, machine learning, data protection, platform law, and emerging technology.
@@ -64,4 +68,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full process.
 
 ## License
 
-MIT or CC BY 4.0 depending on your preferred project model.
+This repository uses three licensing regimes: two licenses (below) and a reserved-rights notice for the draft definitions.
+
+- **Content** (assessments, other contributions, and the material already in this repository): [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE-CONTENT). Please credit "AI Legal Glossary contributors, https://github.com/habbine/ai-legal-glossary".
+- **Code** (`src/`, `tests/`, `.github/workflows/`): [MIT License](LICENSE).
+
+The maintainer's draft definitions live in [`definitions/`](definitions/NOTICE.md) under their own "all rights reserved, review draft" notice and are **not** covered by CC BY. They are not published yet. Because this repository is public, others can fork it on GitHub under GitHub's terms; that gives no right of reuse beyond GitHub.
+
+GitHub shows only the MIT license in the sidebar because it detects a single file; the content license above applies to everything that is not code. Contributors keep their copyright and grant the maintainers an additional publication license through the assessment form (see [CONTRIBUTING.md](CONTRIBUTING.md)).
